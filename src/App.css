@@ -20,6 +20,11 @@ body {
   margin: 16px;
   border: 1px solid #d0d0d0;
 }
+.menu p {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 .viewArea {
   background-color: lightgreen;
