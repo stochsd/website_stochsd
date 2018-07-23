@@ -9,7 +9,7 @@ const examples = () => {
       <ul>
         <li>
           <a
-            HREF="StochSim-Files/A1_Right_and_wrong_stoch_modelling.insightmaker"
+            href="StochSim-Files/A1_Right_and_wrong_stoch_modelling.insightmaker"
             target="_blank"
             download
           >
@@ -19,7 +19,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            HREF="StochSim-Files/A2_Determ_models_hide_and distort.insightmaker"
+            href="StochSim-Files/A2_Determ_models_hide_and distort.insightmaker"
             target="_blank"
             download
           >
@@ -29,7 +29,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            HREF="StochSim-Files/A3_Green's_model.insightmaker"
+            href="StochSim-Files/A3_Green's_model.insightmaker"
             target="_blank"
             download
           >
@@ -39,7 +39,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            HREF="StochSim-Files/A4_SIR_models.insightmaker"
+            href="StochSim-Files/A4_SIR_models.insightmaker"
             target="_blank"
             download
           >
@@ -49,7 +49,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            HREF="StochSim-Files/A5_MMs_queue.insightmaker"
+            href="StochSim-Files/A5_MMs_queue.insightmaker"
             target="_blank"
             download
           >
@@ -59,7 +59,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            HREF="StochSim-Files/A6_Combined_model.insightmaker"
+            href="StochSim-Files/A6_Combined_model.insightmaker"
             target="_blank"
             download
           >
@@ -80,7 +80,7 @@ const examples = () => {
       <ul>
         <li>
           <a
-            HREF="https://insightmaker.com/insight/73938/Full-Pot-Ex-A1"
+            href="https://insightmaker.com/insight/73938/Full-Pot-Ex-A1"
             target="_blank"
           >
             Insight Maker Ex_1
@@ -89,7 +89,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            HREF="https://insightmaker.com/insight/50579/Full-Pot-Ex-A2"
+            href="https://insightmaker.com/insight/50579/Full-Pot-Ex-A2"
             target="_blank"
           >
             Insight Maker Ex_2
@@ -98,7 +98,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            HREF="https://insightmaker.com/insight/73942/Full-Pot-Ex-A3"
+            href="https://insightmaker.com/insight/73942/Full-Pot-Ex-A3"
             target="_blank"
           >
             Insight Maker Ex_3
@@ -107,7 +107,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            HREF="https://insightmaker.com/insight/50582/Full-Pot-Ex-A4"
+            href="https://insightmaker.com/insight/50582/Full-Pot-Ex-A4"
             target="_blank"
           >
             Insight Maker Ex_4
@@ -116,7 +116,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            HREF="https://insightmaker.com/insight/73951/Full-Pot-Ex-A5"
+            href="https://insightmaker.com/insight/73951/Full-Pot-Ex-A5"
             target="_blank"
           >
             Insight Maker Ex_5
@@ -125,7 +125,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            HREF="https://insightmaker.com/insight/50292/Full-Pot-Ex-A6"
+            href="https://insightmaker.com/insight/50292/Full-Pot-Ex-A6"
             target="_blank"
           >
             Insight Maker Ex_6
@@ -134,12 +134,12 @@ const examples = () => {
         </li>
       </ul>
       To edit these files you have to get an Insight Maker account at:{" "}
-      <a HREF="http://insightmaker.com" TARGET="_blank">
+      <a href="http://insightmaker.com" target="_blank">
         http://insightmaker.com
       </a>{" "}
       and 'clone' the models.<br />
       The Insight Maker Manual is found at:{" "}
-      <a HREF="http://insightmaker.com/manual" TARGET="_blank">
+      <a href="http://insightmaker.com/manual" target="_blank">
         http://insightmaker.com/manual
       </a>.
     </div>
