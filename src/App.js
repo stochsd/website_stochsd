@@ -20,22 +20,22 @@ class App extends Component {
     let viewpage;
     switch(this.state.page) {
       case "home":
-        viewpage = <Home className="viewArea"/>
+        viewpage = <Home/>;
         break;
       case "manuals":
-        viewpage = <Manuals/>
+        viewpage = <Manuals/>;
         break;
       case "examples":
-        viewpage = <Examples/>
+        viewpage = <Examples/>;
         break;
       case "software":
-        viewpage = <Software/>
+        viewpage = <Software/>;
         break;
       case "dummy":
-        viewpage = <Manuals/>
+        viewpage = 'nothing here';
         break;
       default:
-        viewpage = 'empty'
+        viewpage = 'empty';
         break;
     }
 
@@ -44,15 +44,17 @@ class App extends Component {
         <div className='menuArea'>
           <div className='menu'>
             <img src={Logo} alt="Icon is missing"/>
-            <h3>Menu</h3>
-            <p onClick={this.changePagehandler} page='home'>Home</p>
-            <p onClick={this.changePagehandler} page='manuals'>Manuals</p>
-            <p onClick={this.changePagehandler} page='examples'>Examples</p>
-            <p onClick={this.changePagehandler} page='software'>Software</p>
-            <p onClick={this.changePagehandler} page='dummy'>dummy pdf</p>
+            <h2>Menu</h2>
+            <p onClick={this.changePagehandler} page='home'>Purpose of Stochastic CSS</p>
+            <p onClick={this.changePagehandler} page='dummy'>Stochastic CSS</p>
+            <p onClick={this.changePagehandler} page='software'>StochSim Software</p>
+            <p onClick={this.changePagehandler} page='manuals'>StochSim and StatRes Manuals</p>
+            <p onClick={this.changePagehandler} page='examples'>Example Models</p>
           </div>
         </div>
-        {viewpage}
+        <div className="viewArea">
+          {viewpage}
+        </div>
       </div>
     );
   }

@@ -1,5 +1,6 @@
 body {
   background-color: #f4f4f4;
+  padding: 16px;
 }
 
 .App {
@@ -8,24 +9,33 @@ body {
   margin-left: auto;
   margin-right: auto;
   grid-template: "menu view" /1fr 3fr;
+  grid-gap: 16px;
 }
 
-.menuArea {
-
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .menu {
   background: white;
   float: right;
   padding: 16px 32px;
-  margin: 16px;
   border: 1px solid #d0d0d0;
 }
 .menu p {
   color: blue;
-  text-decoration: underline;
   cursor: pointer;
+  font-weight: bold;
+  margin: 32px 0px;
+}
+.menu p:hover{
+  text-decoration: underline;
 }
 
 .viewArea {
-  background-color: lightgreen;
+  background-color: white;
+  border: 1px solid #d0d0d0;
+  padding: 32px;
 }
