@@ -1,3 +1,26 @@
+body {
+  background-color: #f4f4f4;
+}
+
 .App {
-  text-align: center;
+  display: grid;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template: "menu view" /1fr 3fr;
+}
+
+.menuArea {
+
+}
+.menu {
+  background: white;
+  float: right;
+  padding: 16px 32px;
+  margin: 16px;
+  border: 1px solid #d0d0d0;
+}
+
+.viewArea {
+  background-color: lightgreen;
 }
