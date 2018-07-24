@@ -10,7 +10,7 @@ const home = (props) => {
         <b>Continuous System Simulation (CSS)</b> has long been an inferior and
         inconsistent type of simulation compared to various forms of Discrete
         Event Simulation (DES). See the paper:{" "}
-        <a href="OJMSi_20160427_17425486.pdf">
+        <a href="http://www.scirp.org/journal/PaperInformation.aspx?paperID=66005">
           <i>A guide to population modelling for simulation</i>
         </a>.
       </p>
@@ -34,7 +34,7 @@ const home = (props) => {
       features are provided and can be reached from <b>'Resources'</b>:<br />
       <br />
       <b>Stochastic CSS:</b> Reference to the paper:{" "}
-      <a href="Full_Pot_DUMMY.pdf">
+      <a href="http://www.scirp.org/JOURNAL/PaperInformation.aspx?PaperID=80104">
         <i>The full potential of Continuous System Simulation modelling</i>
       </a>
       <br />
