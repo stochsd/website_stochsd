@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Menu from './Components/Menu/Menu';
-import Home from './Components/Home/Home';
-import Manuals from './Components/Manuals/Manuals';
-import Software from './Components/Software/Software';
-import Examples from './Components/Examples/Examples';
+import Menu from './Components/Menu';
+import Home from './Components/Home';
+import Manuals from './Components/Manuals';
+import Software from './Components/Software';
+import Examples from './Components/Examples';
 
 class App extends Component {
   state = {
