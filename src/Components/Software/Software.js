@@ -16,18 +16,11 @@ const software = () => {
         <b>StochSim Web</b> which you run in your web browser and{" "}
         <b>StochSim Desktop</b> which you download to your computer.
       </p>
-      <a href="https://stochsd.sourceforge.io/software/MultiSimulationAnalyser/index.html">
-        StochSim Web
-      </a>{" "}
-      (online)<br />
-      <a href="https://sourceforge.net/projects/stochsd/files/">
-        StochSim Desktop
-      </a>{" "}
-      (download)<br />
-      <br /> StochSim Source code is available 
-			<a href="https://sourceforge.net/p/stochsd/code/ci/master/tree/">
-        here
-      </a>
+      <a href="https://sourceforge.net/projects/stochsd/files/">StochSim Desktop</a>{" "}(download)<br />
+      <a href="https://stochsd.sourceforge.io/software/MultiSimulationAnalyser/index.html">StochSim Web</a>{" "}(online)<br />
+      <br /> 
+      StochSim Source code is available{" "}
+			<a href="https://sourceforge.net/p/stochsd/code/ci/master/tree/">here</a>.
       <br />
       <br />
       <br />
