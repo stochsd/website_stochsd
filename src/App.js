@@ -22,9 +22,9 @@ class App extends Component {
           <BrowserRouter>
             <Switch>
               <Route path={"/"} exact component={Home} />
-              <Route path={"/software"} component={Software} />
-              <Route path={"/examples"} component={Examples} />
-              <Route path={"/manuals"} component={Manuals} />
+              <Route path={"/stochsim_software"} component={Software} />
+              <Route path={"/stochsim_and_statres_manuels"} component={Manuals} />
+              <Route path={"/example_models"} component={Examples} />
             </Switch>
           </BrowserRouter>
         </div>

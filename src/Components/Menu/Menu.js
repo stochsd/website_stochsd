@@ -9,9 +9,9 @@ const menu = () => {
 			<h1>StochSim</h1>
       <p><a href="/">Purpose of Stochastic CSS</a></p>
       <p><a href="/dummy">Stochastic CSS</a></p>
-      <p><a href="/software">StochSim Software</a></p>
-      <p><a href="/manuals">StochSim and StatRes Manuals</a></p>
-      <p><a href="/examples">Example Models</a></p>
+      <p><a href="/stochsim_software">StochSim Software</a></p>
+      <p><a href="/stochsim_and_statres_manuels">StochSim and StatRes Manuals</a></p>
+      <p><a href="/example_models">Example Models</a></p>
     </div>
   );
 };
