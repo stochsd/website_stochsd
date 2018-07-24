@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from './Home/Home';
-import Manuals from './Manuals/Manuals';
-import Software from './Software/Software';
-import Examples from './Examples/Examples';
-import Logo from './Logo/stochsim.svg'; 
+import Menu from './Components/Menu/Menu';
+import Home from './Components/Home/Home';
+import Manuals from './Components/Manuals/Manuals';
+import Software from './Components/Software/Software';
+import Examples from './Components/Examples/Examples';
 
 class App extends Component {
   state = {
@@ -16,15 +16,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className='menuArea'>
-          <div className='menu'>
-            <img src={Logo} alt="Icon is missing"/>
-            <h2>Menu</h2>
-            <p><a href='/'>Purpose of Stochastic CSS</a></p>
-            <p><a href='/dummy'>Stochastic CSS</a></p>
-            <p><a href='/software'>StochSim Software</a></p>
-            <p><a href='/manuals'>StochSim and StatRes Manuals</a></p>
-            <p><a href='/examples'>Example Models</a></p>
-          </div>
+          <Menu/>
         </div>
         <div className="viewArea">
           <BrowserRouter>
