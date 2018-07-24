@@ -1,4 +1,5 @@
 import React from "react";
+import './Menu.css';
 import Logo from '../../Images/stochsim.svg'; 
 
 const menu = () => {
