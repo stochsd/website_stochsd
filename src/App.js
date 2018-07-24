@@ -29,7 +29,7 @@ class App extends Component {
         <div className="viewArea">
           <BrowserRouter>
             <Switch>
-              <Route path={"/"} component={Home} />
+              <Route path={"/"} exact component={Home} />
               <Route path={"/software"} component={Software} />
               <Route path={"/examples"} component={Examples} />
               <Route path={"/manuals"} component={Manuals} />
