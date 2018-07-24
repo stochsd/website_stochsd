@@ -8,10 +8,6 @@ import Software from './Components/Software';
 import Examples from './Components/Examples';
 
 class App extends Component {
-  state = {
-    page: 'home'
-  };
-
   render() {
     return (
       <div className="App">
