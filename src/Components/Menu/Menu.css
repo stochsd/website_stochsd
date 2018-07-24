@@ -13,8 +13,12 @@
     margin: 32px 0px;
   }
 
-  img {
+  #iconImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #bathImg {
+      width: 250px;
   }
