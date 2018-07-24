@@ -5,7 +5,7 @@ const menu = () => {
   return (
     <div className="menu">
       <img src={Logo} alt="Icon is missing" />
-			<h2>Menu</h2>
+			<h1>StochSim</h1>
       <p><a href="/">Purpose of Stochastic CSS</a></p>
       <p><a href="/dummy">Stochastic CSS</a></p>
       <p><a href="/software">StochSim Software</a></p>

@@ -26,6 +26,10 @@ img {
   border: 1px solid #d0d0d0;
 }
 
+.menu h1 {
+  text-align: center;
+}
+
 .menu p {
   margin: 32px 0px;
 }
@@ -33,5 +37,5 @@ img {
 .viewArea {
   background-color: white;
   border: 1px solid #d0d0d0;
-  padding: 32px;
+  padding: 16px 32px;
 }
