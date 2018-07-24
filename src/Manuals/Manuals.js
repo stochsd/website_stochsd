@@ -15,27 +15,27 @@ const manuals = () => {
       <h1>StochSim Manuals:</h1>
       <ul style={listStyle}>
         <li>
-          <a href="StochSim_User's_Manual.pdf" target="_blank">StochSim manual</a> 
+          <a href="StochSim_User's_Manual.pdf">StochSim manual</a> 
           {" "}manual for the simulation language StochSim
         </li>
         <li>
-          <a href="StatRes.pdf" target="_blank">
+          <a href="StatRes.pdf">
             StatRes manual
           </a>{" "}
           manual for the statistical tool StatRes
         </li>
         <li>
-          <a href="Optim.pdf" target="_blank">
+          <a href="Optim.pdf">
             Optim manual
           </a>
         </li>
         <li>
-          <a href="Sensi.pdf" target="_blank">
+          <a href="Sensi.pdf">
             Sensi manual
           </a>
         </li>
         <li>
-          <a href="ParmVar.pdf" target="_blank">
+          <a href="ParmVar.pdf">
             ParmVar manual
           </a>
         </li>

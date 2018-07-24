@@ -1,6 +1,6 @@
 import React from "react";
 
-const home = props => {
+const home = (props) => {
   return (
     <div className={props.className}>
       <h1>
@@ -10,7 +10,7 @@ const home = props => {
         <b>Continuous System Simulation (CSS)</b> has long been an inferior and
         inconsistent type of simulation compared to various forms of Discrete
         Event Simulation (DES). See the paper:{" "}
-        <a target="_BLANK" href="OJMSi_20160427_17425486.pdf">
+        <a href="OJMSi_20160427_17425486.pdf">
           <i>A guide to population modelling for simulation</i>
         </a>.
       </p>
@@ -34,23 +34,20 @@ const home = props => {
       features are provided and can be reached from <b>'Resources'</b>:<br />
       <br />
       <b>Stochastic CSS:</b> Reference to the paper:{" "}
-      <a href="Full_Pot_DUMMY.pdf" target="_blank">
+      <a href="Full_Pot_DUMMY.pdf">
         <i>The full potential of Continuous System Simulation modelling</i>
       </a>
       <br />
       <br />
       <b>StochSim:</b> A simple language for stochastic CSS simulation
       (including StatRes)<br />
-      &nbsp <b>StatRes:</b> A StochSim tool for statistical analysis of multiple
+      <b>StatRes:</b> A StochSim tool for statistical analysis of multiple
       simulations<br />
       <br />
       <b>Example Models</b> (presented in the paper): Six example models in
       StochRes illustrating the need for stochactic CSS <br />
       <br />
-      <a
-        target="_BLANK"
-        href="http://www.signal.uu.se/Research/simulation.html"
-      >
+      <a href="http://www.signal.uu.se/Research/simulation.html">
         Research on Simulation, Uppsala University, Sweden
       </a>
       <br />

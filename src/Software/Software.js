@@ -16,21 +16,16 @@ const software = () => {
         <b>StochSim Web</b> which you run in your web browser and{" "}
         <b>StochSim Desktop</b> which you download to your computer.
       </p>
-      <a
-        href="https://stochsd.sourceforge.io/software/MultiSimulationAnalyser/index.html"
-        target="_blank"
-      >
+      <a href="https://stochsd.sourceforge.io/software/MultiSimulationAnalyser/index.html">
         StochSim Web
       </a>{" "}
       (online)<br />
-      <a href="https://sourceforge.net/projects/stochsd/files/" target="_blank">
+      <a href="https://sourceforge.net/projects/stochsd/files/">
         StochSim Desktop
       </a>{" "}
       (download)<br />
-      <br /> StochSim Source code is available <a
-        href="https://sourceforge.net/p/stochsd/code/ci/master/tree/"
-        target="_blank"
-      >
+      <br /> StochSim Source code is available 
+			<a href="https://sourceforge.net/p/stochsd/code/ci/master/tree/">
         here
       </a>
       <br />
@@ -46,7 +41,7 @@ const software = () => {
         <br />
         Insight Maker Public license comes from the Insght Maker project and is
         available at:<br />
-        <a href="https://insightmaker.com/impl" target="_BLANK">
+        <a href="https://insightmaker.com/impl">
           https://insightmaker.com/impl
         </a>
         <br />
