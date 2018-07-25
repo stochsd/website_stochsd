@@ -1,4 +1,10 @@
 import React from "react";
+import file1 from "./StochSim-Files/A1_Right_and_wrong_stoch_modelling.insightmaker";
+import file2 from "./StochSim-Files/A2_Determ_models_hide_and distort.insightmaker";
+import file3 from "./StochSim-Files/A3_Green's_model.insightmaker";
+import file4 from "./StochSim-Files/A4_SIR_models.insightmaker";
+import file5 from "./StochSim-Files/A5_MMs_queue.insightmaker";
+import file6 from "./StochSim-Files/A6_Combined_model.insightmaker";
 
 const examples = () => {
   return (
@@ -9,7 +15,7 @@ const examples = () => {
       <ul>
         <li>
           <a
-            href="StochSim-Files/A1_Right_and_wrong_stoch_modelling.insightmaker"
+            href={file1}
             download
           >
             StochSim Ex_1
@@ -18,7 +24,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            href="StochSim-Files/A2_Determ_models_hide_and distort.insightmaker"
+            href={file2}
             download
           >
             StochSim Ex_2
@@ -27,7 +33,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            href="StochSim-Files/A3_Green's_model.insightmaker"
+            href={file3}
             download
           >
             StochSim Ex_3
@@ -36,7 +42,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            href="StochSim-Files/A4_SIR_models.insightmaker"
+            href={file4}
             download
           >
             StochSim Ex_4
@@ -45,7 +51,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            href="StochSim-Files/A5_MMs_queue.insightmaker"
+            href={file5}
             download
           >
             StochSim Ex_5
@@ -54,7 +60,7 @@ const examples = () => {
         </li>
         <li>
           <a
-            href="StochSim-Files/A6_Combined_model.insightmaker"
+            href={file6}
             download
           >
             StochSim Ex_6
