@@ -15,12 +15,36 @@ const software = () => {
         <b>StochSim</b> (including <b>StatRes</b>) is available in two form.{" "}
         <b>StochSim Web</b> which you run in your web browser and{" "}
         <b>StochSim Desktop</b> which you download to your computer.
+        <br />
+        <br />
+        <a
+          href="https://sourceforge.net/projects/stochsd/files/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          StochSim Desktop
+        </a>{" "}
+        (download)
+        <br />
+        <a
+          href="https://stochsd.sourceforge.io/software/MultiSimulationAnalyser/index.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          StochSim Web
+        </a>{" "}
+        (online)
+        <br />
+        <br />
+        StochSim Source code is available{" "}
+        <a
+          href="https://sourceforge.net/p/stochsd/code/ci/master/tree/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>.
       </p>
-      <a href="https://sourceforge.net/projects/stochsd/files/">StochSim Desktop</a>{" "}(download)<br />
-      <a href="https://stochsd.sourceforge.io/software/MultiSimulationAnalyser/index.html">StochSim Web</a>{" "}(online)<br />
-      <br /> 
-      StochSim Source code is available{" "}
-			<a href="https://sourceforge.net/p/stochsd/code/ci/master/tree/">here</a>.
       <br />
       <br />
       <br />
@@ -34,7 +58,11 @@ const software = () => {
         <br />
         Insight Maker Public license comes from the Insght Maker project and is
         available at:<br />
-        <a href="https://insightmaker.com/impl">
+        <a
+          href="https://insightmaker.com/impl"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           https://insightmaker.com/impl
         </a>
         <br />

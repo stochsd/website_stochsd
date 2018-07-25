@@ -10,7 +10,11 @@ const home = (props) => {
         <b>Continuous System Simulation (CSS)</b> has long been an inferior and
         inconsistent type of simulation compared to various forms of Discrete
         Event Simulation (DES). See the paper:{" "}
-        <a href="http://www.scirp.org/journal/PaperInformation.aspx?paperID=66005">
+        <a 
+          href="http://www.scirp.org/journal/PaperInformation.aspx?paperID=66005" 
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i>A guide to population modelling for simulation</i>
         </a>.
       </p>
@@ -34,7 +38,11 @@ const home = (props) => {
       features are provided and can be reached from <b>'Resources'</b>:<br />
       <br />
       <b>Stochastic CSS:</b> Reference to the paper:{" "}
-      <a href="http://www.scirp.org/JOURNAL/PaperInformation.aspx?PaperID=80104">
+      <a 
+        href="http://www.scirp.org/JOURNAL/PaperInformation.aspx?PaperID=80104"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <i>The full potential of Continuous System Simulation modelling</i>
       </a>
       <br />
@@ -47,7 +55,11 @@ const home = (props) => {
       <b>Example Models</b> (presented in the paper): Six example models in
       StochRes illustrating the need for stochactic CSS <br />
       <br />
-      <a href="http://www.signal.uu.se/Research/simulation.html">
+      <a 
+        href="http://www.signal.uu.se/Research/simulation.html"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Research on Simulation, Uppsala University, Sweden
       </a>
       <br />
