@@ -10,8 +10,14 @@ const examples = () => {
   return (
     <div>
       <h1>Example Models</h1>
-      (<b>StochSim</b> examples from the paper "The full potential of Continuous
-      System Simulation modelling")
+      (<b>StochSim</b> examples from the paper:{" "}
+      <a 
+        href="http://www.scirp.org/JOURNAL/PaperInformation.aspx?PaperID=80104"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+      The full potential of Continuous System Simulation modelling
+      </a>
       <ul>
         <li>
           <a
@@ -70,8 +76,7 @@ const examples = () => {
       </ul>
       <p>
         To run an example file, click 'StochSim Ex_n' and download it to a saved
-        file on your computer.
-        <br />
+        file on your computer.{" "}
         Then start StochSim and open the saved file from whithin StochSim.
       </p>
       <br />
@@ -119,8 +124,7 @@ const examples = () => {
       <a href="http://insightmaker.com">
         http://insightmaker.com
       </a>{" "}
-      and 'clone' the models.<br />
-      The Insight Maker Manual is found at:{" "}
+      and 'clone' the models. The Insight Maker Manual is found at:{" "}
       <a href="http://insightmaker.com/manual">
         http://insightmaker.com/manual
       </a>.

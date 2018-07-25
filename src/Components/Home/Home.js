@@ -18,24 +18,32 @@ const home = (props) => {
           <i>A guide to population modelling for simulation</i>
         </a>.
       </p>
-      However, by: <br />
-      &nbsp; 1) modelling discrete objects as discrete<br />
-      &nbsp; 2) handling attributes and sojourn times correctly<br />
-      &nbsp; 3) including various types of stochasticities<br />
-      a CSS model can be fully consistent with a DES model.<br />
+      However, a CSS model can be fully consistent with a DES model by: <br />
+      &nbsp; 1) modelling discrete objects as discrete,<br />
+      &nbsp; 2) handling attributes and sojourn times correctly,<br />
+      &nbsp; 3) including various types of stochasticities.<br />
+      <br />
       <p>
         Further, in all types of <b>stochastic simulation</b> you need to
         perform <i>multiple simulations</i> of the model followed by a{" "}
-        <i>statistical analysis</i>. Therefore, a tool for this is required in
-        stochastic CSS modelling. Such a tool named <b>StatRes</b> is here
-        presented.
+        <i>statistical analysis</i>. Therefore, a tool to perform this is required in
+        stochastic CSS modelling.
       </p>
+      <br/>
       <h2>
-        Paper, Software with documentation, and Examples of{" "}
-        <b>Stochastic CSS</b>
+        <b>StochSim</b> Software with documentation and Examples
       </h2>
-      In order to teach stochastic CSS modelling and simulation the following
-      features are provided and can be reached from <b>'Resources'</b>:<br />
+      In order to teach <i>stochastic</i> CSS modelling and simulation the open-source software 'StochSim' 
+      {" "}is provided <a href="/stochsim_software">here</a>.
+      <br />
+      <br />
+      <b>StochSim:</b> A CSS language for stochastic simulation
+      {" "}(including StatRes, which is a tool for statistical analysis of multiple
+      simulations).<br />
+      <br />
+      <b>Example Models</b> (presented in the paper, below): Six example models in
+      StochRes illustrating the need for stochactic CSS.
+      <br />
       <br />
       <b>Stochastic CSS:</b> Reference to the paper:{" "}
       <a 
@@ -45,16 +53,8 @@ const home = (props) => {
       >
         <i>The full potential of Continuous System Simulation modelling</i>
       </a>
-      <br />
-      <br />
-      <b>StochSim:</b> A simple language for stochastic CSS simulation
-      (including StatRes)<br />
-      <b>StatRes:</b> A StochSim tool for statistical analysis of multiple
-      simulations<br />
-      <br />
-      <b>Example Models</b> (presented in the paper): Six example models in
-      StochRes illustrating the need for stochactic CSS <br />
-      <br />
+      <br/>
+      <br/>
       <a 
         href="http://www.signal.uu.se/Research/simulation.html"
         target="_blank"
@@ -71,7 +71,7 @@ const home = (props) => {
       </a>
       <br />
       <br />
-      <i>Updated: 2018-07-24</i>
+      <i>Updated: 2018-07-25</i>
     </div>
   );
 };
