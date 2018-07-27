@@ -10,7 +10,7 @@ const examples = () => {
   return (
     <div>
       <h1>Example Models</h1>
-      (<b>StochSim</b> examples from the paper:{" "}
+      <b>StochSim</b> (former <b>StochSD</b>) examples from the paper:{" "}
       <a 
         href="http://www.scirp.org/JOURNAL/PaperInformation.aspx?PaperID=80104"
         target="_blank"
