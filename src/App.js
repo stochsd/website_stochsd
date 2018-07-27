@@ -10,21 +10,21 @@ import Examples from './Components/Examples';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className='menuArea'>
-          <Menu/>
-        </div>
+      <BrowserRouter>
+      <Switch>
+        <div className="App">
+          <div className='menuArea'>
+            <Menu/>
+          </div>
         <div className="viewArea">
-          <BrowserRouter>
-            <Switch>
-              <Route path={"/"} exact component={Home} />
-              <Route path={"/stochsim_software"} component={Software} />
-              <Route path={"/stochsim_and_statres_manuels"} component={Manuals} />
-              <Route path={"/example_models"} component={Examples} />
-            </Switch>
-          </BrowserRouter>
+              <Route path={"/homepage/home"} exact component={Home} />
+              <Route path={"/homepage/stochsim_software"} component={Software} />
+              <Route path={"/homepage/stochsim_and_statres_manuels"} component={Manuals} />
+              <Route path={"/homepage/example_models"} component={Examples} />
         </div>
       </div>
+      </Switch>
+      </BrowserRouter>
     );
   }
 }
