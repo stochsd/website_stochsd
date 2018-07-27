@@ -6,7 +6,7 @@ const software = () => {
     <div>
       <h1>StochSim Software</h1>
       <p>
-        <b>StochSim</b> is a software, primarilly developed to
+        <b>StochSim</b> (former <b>StochSD</b>) is a software, primarilly developed to
         introduce statistical post-analysis from multiple simulations with the
         included tool <b>StatRes</b>. (However, the <b>StatRes</b> tool is a 
         {" "}software that may be reused together with other CSS
