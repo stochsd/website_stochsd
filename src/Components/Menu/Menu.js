@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Menu.css';
 import Logo from '../../Images/stochsim.svg'; 
 import Bath from '../../Images/bath.png';
