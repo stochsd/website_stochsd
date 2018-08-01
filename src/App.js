@@ -24,7 +24,7 @@ class App extends Component {
       <Switch>
 
         <div className="viewArea">
-              <Route exact path={"/"} exact component={Home} />
+              <Route path={"/"} exact component={Home} />
               <Route path={"/home"} exact component={Home} />
               <Route path={"/stochsim_software"} component={Software} />
               <Route path={"/stochsim_and_statres_manuels"} component={Manuals} />
