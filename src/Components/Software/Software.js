@@ -41,7 +41,7 @@ const software = () => {
         The open-source code for <b>StochSim</b> (including{" "}
         StatRes and three other tools) is available{" "}
         <a
-          href="https://sourceforge.net/p/stochsd/code/ci/master/tree/"
+          href="https://github.com/Magnus93/stochsim"
           target="_blank"
           rel="noopener noreferrer"
         >
