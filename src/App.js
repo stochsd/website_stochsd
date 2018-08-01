@@ -6,6 +6,11 @@ import Home from './Components/Home';
 import Manuals from './Components/Manuals';
 import Software from './Components/Software';
 import Examples from './Components/Examples';
+import ReactGA from 'react-ga';
+
+// Google analytics tracker code 
+ReactGA.initialize('UA-123014062-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
   render() {
