@@ -31,13 +31,13 @@ const home = (props) => {
       </p>
       <br/>
       <h2>
-        <b>StochSim</b> Software with documentation and Examples
+        <b>StochSD</b> Software with documentation and Examples
       </h2>
       In order to teach <i>stochastic</i> CSS modelling and simulation the open-source software {" "}
-      <b>StochSim</b> (former <b>StochSD</b>) is provided <a href="/stochsim_software">here</a>.
+      <b>StochSD</b> is provided <a href="/stochsd_software">here</a>.
       <br />
       <br />
-      <b>StochSim:</b> A CSS language for stochastic simulation
+      <b>StochSD:</b> A CSS language for stochastic simulation
       {" "}(including StatRes, which is a tool for statistical analysis of multiple
       simulations).<br />
       <br />

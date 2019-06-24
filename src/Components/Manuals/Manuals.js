@@ -1,9 +1,9 @@
 import React from "react";
-import StochSimUserManual from "./pdfs/StochSim_User_Manual.pdf";
-import StatResManual from "./pdfs/StochSim_StatRes.pdf";
-import OptimManual from "./pdfs/StochSim_Optim.pdf";
-import SensiManual from "./pdfs/StochSim_Sensi.pdf";
-import ParmVarManual from "./pdfs/StochSim_ParmVar.pdf";
+import StochSDUserManual from "./pdfs/StochSD_User_Manual.pdf";
+import StatResManual from "./pdfs/StochSD_StatRes.pdf";
+import OptimManual from "./pdfs/StochSD_Optim.pdf";
+import SensiManual from "./pdfs/StochSD_Sensi.pdf";
+import ParmVarManual from "./pdfs/StochSD_ParmVar.pdf";
 
 const manuals = () => {
   const listStyle = {
@@ -17,11 +17,11 @@ const manuals = () => {
 
   return (
     <div>
-      <h1>StochSim Manuals:</h1>
+      <h1>StochSD Manuals:</h1>
       <ul style={listStyle}>
         <li>
-          <a href={StochSimUserManual}>StochSim user's manual</a> 
-          {" "}- for the simulation language StochSim.
+          <a href={StochSDUserManual}>StochSD user's manual</a> 
+          {" "}- for the simulation language StochSD.
         </li>
         <li>
           <a href={StatResManual}>
