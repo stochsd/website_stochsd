@@ -8,11 +8,11 @@ const home = (props) => {
       </h1>
       <p>
         Two main branches of simulation are <b>Continuous System Simulation (CSS)</b> and <b>Discrete Event Simulation (DES)</b>.<br />
-        <b>CSS</b> is a <i>macro approach</i> where many are lumped together in a structure of <b>compartments</b> connected by <b>flows</b>, where the compartments represent different stages of our interest. During the simulation, items are dynamically transferred  between the compartments. Traditionally, a CSS model was based on dif. equations, but with the <b>System Dynamics (SD)</b> philosophy, the model building could be directly performed by placing and connecting compartments and flows into a graphical structure.<br />
-        <b>DES</b>, on the other hand, is <i>micro approach</i> where each item is individually described in dynamic and stochastic terms.
+        &nbsp; &nbsp; &nbsp;<b>CSS</b> is a <i>macro approach</i> where many items are lumped together in a structure of <b>compartments</b> connected by <b>flows</b>, and where the compartments represent different stages of our interest. During the simulation, items are dynamically transferred  between the compartments. Traditionally, a CSS model was based on dif. equations, but with the <b>System Dynamics (SD)</b> philosophy, the model building could be directly performed by placing and connecting compartments and flows into a graphical structure.<br />
+        &nbsp; &nbsp; &nbsp;<b>DES</b>, on the other hand, is a <i>micro approach</i> where each item is individually described in dynamic and stochastic terms.
       </p>
       <p>
-        CSS has long been an inferior and inconsistent type of simulation compared to various forms of DES. See the paper:{" "}
+        CSS has long been an inferior and inconsistent type of simulation compared to DES. See the paper:{" "}
         <a 
           href="http://www.scirp.org/journal/PaperInformation.aspx?paperID=66005" 
           target="_blank"
@@ -20,8 +20,6 @@ const home = (props) => {
         >
           <i>A guide to population modelling for simulation</i>
         </a>.
-      </p>
-      <p>
       However, a CSS model can be fully consistent with a DES model by: <br />
       &nbsp; 1) modelling discrete objects as discrete,<br />
       &nbsp; 2) handling attributes and sojourn times correctly,<br />
@@ -36,20 +34,20 @@ const home = (props) => {
         </a>.
       </p>
       <p>
-        The <b>purpose</b> of <b>StochSD</b> (<i>Stoch</i>astic <i>S</i>ystem <i>D</i>ynamics) is to provide an open source CSS/SD language that incorporates the stochastic means to build stochastic and dynamic models as well as necessary tools for multiple simulations followed by statistical analysis and result presentation. 
+        The <b>purpose</b> of <b>StochSD</b> (<u>Stoch</u>astic <u>S</u>ystem <u>D</u>ynamics) is to provide an open source CSS/SD language that incorporates the means to build stochastic and dynamic models as well as necessary tools for multiple simulations followed by statistical analysis and result presentation. 
       </p>
       <h2>
         StochSD Software with Documentation and Examples
       </h2>
       <p>
-        In order to use <i>stochastic</i> CSS/SD modelling and simulation the open-source software <b>StochSD</b> is provided <a href="/  stochsd_software">here</a>.
+        In order to do <i>stochastic</i> CSS/SD modelling and simulation the open-source software <b>StochSD</b> is provided <a href="/  stochsd_software">here</a>.
       </p>
       <p>
         <b>Example Models</b> (presented in the paper ‘The full potential …’, referred to above): <br />
         Six models in StochSD illustrating the need for correctly implemented stochactics in CSS.
       </p>
       <p>
-        <a 
+        See also: <a 
           href="http://www.signal.uu.se/Research/simulation.html"
           target="_blank"
           rel="noopener noreferrer"

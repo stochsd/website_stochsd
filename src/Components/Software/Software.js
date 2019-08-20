@@ -6,19 +6,12 @@ const software = () => {
     <div>
       <h1>StochSD Software</h1>
       <p>
-        <b>StochSD</b> is a software, primarilly developed to
-        introduce statistical post-analysis from multiple simulations with the
-        included tool <b>StatRes</b>. (However, the <b>StatRes</b> tool is a 
-        {" "}software that may be reused together with other CSS
-        packages. For this purpose we have included the source code.)
-        <br />
-        <br />
-        <b>StochSD</b> (including <b>StatRes</b>) is available in two versions:{" "}
-        <b>StochSD Desktop</b> which you download to your computer and{" "}
-        <b>StochSD Web</b> which you can run in the web browser 
-        {" "}(Supported web browsers are: Mozilla Firefox and Google Chrome).
-        <br />
-        <br />
+        <b>StochSD</b> is an open-source software for stochatic and dynamic modelling and simulation. It also contains tools for statistical post-analysis from multiple simulations.
+      </p>
+      <p>
+        <b>StochSD</b> is available in two versions: <b>StochSD Desktop</b> which you download to your computer and <b>StochSD Web</b> which you can run in the web browser. Supported web browsers are: Google Chrome and Mozilla Firefox.
+      </p>
+      <p>
         <a
           href="https://sourceforge.net/projects/stochsd/files/"
           target="_blank"
@@ -36,10 +29,9 @@ const software = () => {
           StochSD Web
         </a>{" "}
         (online)
-        <br />
-        <br />
-        The open-source code for <b>StochSD</b> (including{" "}
-        StatRes and three other tools) is available{" "}
+      </p>
+      <p>
+        The open-source code for <b>StochSD</b> is available{" "}
         <a
           href="https://github.com/Magnus93/stochsd"
           target="_blank"
@@ -48,11 +40,13 @@ const software = () => {
           here
         </a>.
       </p>
-      <br />
-      <h2>Open-Source License</h2>
+      <h2>About the Open-Source License</h2>
       <p>
-        <b>StochSD</b> is based on the open source part of Insight Maker. {" "}
-        StochSD’s source code (including the open source part of {" "}
+        Copyright &copy; 2019 StochSD.
+      </p>
+      <p>
+        <b>StochSD</b> is based on the open-source part of Insight Maker. {" "}
+        StochSD’s source code (including the open-source part of {" "}
         Insight Maker) is released under a custom license called {" "}
         <i>Insight Maker Public License</i>, which is based on the Affero GPL.{" "}
         Insight Maker’s Public License is available at: {" "}
@@ -63,19 +57,22 @@ const software = () => {
         >
           https://insightmaker.com/impl.
         </a>
-        <br/>
-        <br/>
+      </p>
+      <p>
         <i>Insight Maker Public License</i> thus covers all StochSD’s {" "}
         JavaScript, HTML and CSS code for StochSD. The original {" "}
         non-open source code in Insight Maker, such as ExtJS and mxGraph{" "}
-        are completely eliminated and replaced in StochSD.
-        <br/>
-        <br/>
+        are completely eliminated and replaced by the open-source libraries jqPlot and jqDialog.
+      </p>
+      <p>
         All the parts of the code that are from the original Insight Maker are
         copyrighted by Scott Fortmann-Roe and the files specific to StochSD are
         copyrighted by Erik Gustafsson and Magnus Gustafsson. 
-        <br/>
-        <br/>
+      </p>
+      <p>
+        The full license is found in StochSD under <i>Help->Third-party Software</i>.
+      </p>
+      <p>
         <h3>Responsibility</h3>
         The user is fully responsible for the use of StochSD and its tools.{" "}
         The producer and the supplier of this code take no responsibility{" "}

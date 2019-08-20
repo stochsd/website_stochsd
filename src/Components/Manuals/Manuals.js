@@ -18,34 +18,35 @@ const manuals = () => {
   return (
     <div>
       <h1>StochSD Manuals:</h1>
+      <a href={StochSDUserManual}><b>StochSD User's Manual</b></a> 
+        {" "}- for the simulation language StochSD.
+      <br/>
+      <br/>
+      <b>Tools</b>
       <ul style={listStyle}>
-        <li>
-          <a href={StochSDUserManual}>StochSD user's manual</a> 
-          {" "}- for the simulation language StochSD.
-        </li>
         <li>
           <a href={StatResManual}>
             StatRes manual
           </a>
-          {" "}- for statistical analysis of multiple runs of a stochastic model.
+          {" "}- for multiple runs of a stochastic model, statistical analysis and result presentation.
+        </li>
+        <li>
+          <a href={ParmVarManual}>
+            ParmVar manual
+          </a>
+          {" "}- for parameters estimation with a stochastic model.
         </li>
         <li>
           <a href={OptimManual}>
             Optim manual
           </a>
-          {" "}- for optimisation of a deterministic model.
+          {" "}- for optimisation and for model fitting of a deterministic model.
         </li>
         <li>
           <a href={SensiManual}>
             Sensi manual
           </a>
           {" "}- for sensitivity analysis.
-        </li>
-        <li>
-          <a href={ParmVarManual}>
-            ParmVar manual
-          </a>
-          {" "}- for analysis of parameter variations.
         </li>
       </ul>
     </div>

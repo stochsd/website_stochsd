@@ -24,7 +24,7 @@ const examples = () => {
             href={file1}
             download
           >
-            StochSD Ex_1
+            <b>Ex-1</b>
           </a>{" "}
           (Right and wrong stochastic modelling)
         </li>
@@ -33,7 +33,7 @@ const examples = () => {
             href={file2}
             download
           >
-            StochSD Ex_2
+            <b>Ex-2</b>
           </a>{" "}
           (Deterministic modelling hides behaviours and may distort results)
         </li>
@@ -42,7 +42,7 @@ const examples = () => {
             href={file3}
             download
           >
-            StochSD Ex_3
+            <b>Ex-3</b>
           </a>{" "}
           (Consequences of neglecting stage-to-compartment expansion)
         </li>
@@ -51,7 +51,7 @@ const examples = () => {
             href={file4}
             download
           >
-            StochSD Ex_4
+            <b>Ex-4</b>
           </a>{" "}
           (Behaviours of different SIR models)
         </li>
@@ -60,7 +60,7 @@ const examples = () => {
             href={file5}
             download
           >
-            StochSD Ex_5
+            <b>Ex-5</b>
           </a>{" "}
           (Queues and statistical devices)
         </li>
@@ -69,65 +69,15 @@ const examples = () => {
             href={file6}
             download
           >
-            StochSD Ex_6
+            <b>Ex-6</b>
           </a>{" "}
           (Combined continuous and discrete modelling)
         </li>
       </ul>
       <p>
-        To run an example file, click 'StochSD Ex_n' and download it to a saved
-        file on your computer.{" "}
+        To run an example file, click 'Ex-n' and download it on your computer.{" "}
         Then start StochSD and open the saved file from whithin StochSD.
       </p>
-      <br />
-      The six examples can also be studied with <b>Insight Maker</b>. However,
-      then no statistical post-analysis is possible.<br />
-      <ul>
-        <li>
-          <a href="https://insightmaker.com/insight/73938/Full-Pot-Ex-A1">
-            Insight Maker Ex_1
-          </a>{" "}
-          (Right and wrong stochastic modelling)
-        </li>
-        <li>
-          <a href="https://insightmaker.com/insight/50579/Full-Pot-Ex-A2">
-            Insight Maker Ex_2
-          </a>{" "}
-          (Deterministic modelling hides behaviours and may distort results)
-        </li>
-        <li>
-          <a href="https://insightmaker.com/insight/73942/Full-Pot-Ex-A3">
-            Insight Maker Ex_3
-          </a>{" "}
-          (Consequences of neglecting stage-to-compartment expansion)
-        </li>
-        <li>
-          <a href="https://insightmaker.com/insight/50582/Full-Pot-Ex-A4">
-            Insight Maker Ex_4
-          </a>{" "}
-          (Behaviours of different SIR models)
-        </li>
-        <li>
-          <a href="https://insightmaker.com/insight/73951/Full-Pot-Ex-A5">
-            Insight Maker Ex_5
-          </a>{" "}
-          (Queues and statistical devices)
-        </li>
-        <li>
-          <a href="https://insightmaker.com/insight/50292/Full-Pot-Ex-A6">
-            Insight Maker Ex_6
-          </a>{" "}
-          (Combined continuous and discrete modelling)
-        </li>
-      </ul>
-      To edit these files you have to get an Insight Maker account at:{" "}
-      <a href="http://insightmaker.com">
-        http://insightmaker.com
-      </a>{" "}
-      and 'clone' the models. The Insight Maker Manual is found at:{" "}
-      <a href="http://insightmaker.com/manual">
-        http://insightmaker.com/manual
-      </a>.
     </div>
   );
 };
