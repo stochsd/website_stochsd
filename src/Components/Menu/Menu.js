@@ -9,9 +9,9 @@ const menu = () => {
     <div className="menu">
       <img src={Logo} alt="Icon is missing" id="iconImg" />
 			<h1>StochSD</h1>
-      <p><Link to="/home">Purpose of Stochastic CSS</Link></p>
+      <p><Link to="/home">Purpose of Stochastic Simulation - StochSD</Link></p>
       <p><Link to="/stochsd_software">StochSD Software</Link> (Download)</p>
-      <p><Link to="/stochsd_and_statres_manuels">StochSD and StatRes Manuals</Link></p>
+      <p><Link to="/stochsd_and_statres_manuels">StochSD User's Manuals</Link></p>
       <p><Link to="/example_models">Example Models</Link></p>
 			<img src={Bath} alt={"Bath here"} id="bathImg" />
     </div>
