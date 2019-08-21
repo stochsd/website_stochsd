@@ -62,7 +62,7 @@ const software = () => {
         <i>Insight Maker Public License</i> thus covers all StochSD’s {" "}
         JavaScript, HTML and CSS code for StochSD. The original {" "}
         non-open source code in Insight Maker, such as ExtJS and mxGraph{" "}
-        are completely eliminated and replaced by the open-source libraries jqPlot and jqDialog.
+        are completely eliminated and replaced by the open-source libraries jqPlot and jquery-ui.
       </p>
       <p>
         All the parts of the code that are from the original Insight Maker are
