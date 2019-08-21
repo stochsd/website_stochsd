@@ -1,10 +1,10 @@
 import React from "react";
-import file1 from "./StochSD-Files/A1_Right_and_wrong_stoch_modelling.insightmaker";
-import file2 from "./StochSD-Files/A2_Determ_models_hide_and distort.insightmaker";
-import file3 from "./StochSD-Files/A3_Green's_model.insightmaker";
-import file4 from "./StochSD-Files/A4_SIR_models.insightmaker";
-import file5 from "./StochSD-Files/A5_MMs_queue.insightmaker";
-import file6 from "./StochSD-Files/A6_Combined_model.insightmaker";
+import file1 from "./StochSD-Files/A1_Right_and_wrong_stoch_modelling.ssd";
+import file2 from "./StochSD-Files/A2_Determ_models_hide_and distort.ssd";
+import file3 from "./StochSD-Files/A3_Green's_model.ssd";
+import file4 from "./StochSD-Files/A4_SIR_models.ssd";
+import file5 from "./StochSD-Files/A5_MMs_queue.ssd";
+import file6 from "./StochSD-Files/A6_Combined_model.ssd";
 
 const examples = () => {
   return (
