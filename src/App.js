@@ -7,6 +7,7 @@ import Manuals from './Components/Manuals';
 import Software from './Components/Software';
 import Examples from './Components/Examples';
 import ReactGA from 'react-ga';
+import MetaTags from 'react-meta-tags';
 
 // Google analytics tracker code 
 ReactGA.initialize('UA-123014062-1');
@@ -22,13 +23,16 @@ class App extends Component {
           </div>
 
       <Switch>
-
         <div className="viewArea">
-              <Route path={"/"} exact component={Home} />
-              <Route path={"/home"} exact component={Home} />
-              <Route path={"/stochsd_software"} component={Software} />
-              <Route path={"/stochsd_and_statres_manuels"} component={Manuals} />
-              <Route path={"/example_models"} component={Examples} />
+          <MetaTags>
+            <meta property="og:title" content="StochSD Homepage" />
+            <meta property="og:image" content="https://stochsd.sourceforge.io/images/bath.png" />
+          </MetaTags>
+            <Route path={"/"} exact component={Home} />
+            <Route path={"/home"} exact component={Home} />
+            <Route path={"/stochsd_software"} component={Software} />
+            <Route path={"/stochsd_and_statres_manuels"} component={Manuals} />
+            <Route path={"/example_models"} component={Examples} />
         </div>
       </Switch>
       </div>
