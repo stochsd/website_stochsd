@@ -63,7 +63,7 @@ const home = (props) => {
         </a>
       </p>
       <p>
-        <i>Updated: 2019-09-01</i>
+        <i>Updated: 2020-12-02</i>
       </p>
     </div>
   );
