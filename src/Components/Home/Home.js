@@ -40,7 +40,7 @@ const home = (props) => {
         StochSD Software with Documentation and Examples
       </h2>
       <p>
-        In order to do <i>stochastic</i> CSS/SD modelling and simulation the open-source software <b>StochSD</b> is provided <a href="/  stochsd_software">here</a>.
+        In order to do <i>stochastic</i> CSS/SD modelling and simulation the open-source software <b>StochSD</b> is provided <a href="/#stochsd_software">here</a>.
       </p>
       <p>
         <b>Example Models</b> (presented in the paper ‘The full potential …’, referred to above): <br />

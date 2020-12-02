@@ -6,6 +6,37 @@ import React from "react";
 // import ParmVarManual from "./pdfs/StochSD_ParmVar.pdf";
 
 const manuals = () => {
+  const main_man = {"path": "https://stochsd.sourceforge.io/manuals/StochSD_User_Manual.pdf", "name": "StochSD User's Manual", "desc": "for the simulation language StochSD."};
+  const manuals_list = [
+    {
+      "path": "https://stochsd.sourceforge.io/manuals/StochSD_Optim.pdf", 
+      "name": "Optim manual", 
+      "desc": "for optimisation and for model fitting of a deterministic model."
+    },
+    {
+      "path": "https://stochsd.sourceforge.io/manuals/StochSD_Sensi.pdf", 
+      "name": "Sensi manual", 
+      "desc": "for sensitivity analysis."
+    },
+    {
+      "path": "https://stochsd.sourceforge.io/manuals/StochSD_StatRes.pdf", 
+      "name": "StatRes manual", 
+      "desc": "for multiple runs of a stochastic model, statistical analysis and result presentation."
+    },
+    {
+      "path": "https://stochsd.sourceforge.io/manuals/StochSD_ParmVar.pdf", 
+      "name": "ParmVar manual", 
+      "desc": "for parameters estimation with a stochastic model."
+    },
+  ];
+
+  const manual_to_link = (man_obj) => {
+  return (<span><a target="_blank" href={man_obj["path"]}>
+    <b>{man_obj["name"]}</b>
+  </a> - {man_obj["desc"]}</span>);
+  }
+
+
   const listStyle = {
     paddingLeft: "20px",
     marginTop: "0px",
@@ -18,36 +49,14 @@ const manuals = () => {
   return (
     <div>
       <h1>StochSD Manuals:</h1>
-      <a target="_blank" href={"https://stochsd.sourceforge.io/manuals/StochSD_User_Manual.pdf"}><b>StochSD User's Manual</b></a> 
-        {" "}- for the simulation language StochSD.
+      {manual_to_link(main_man)}
       <br/>
       <br/>
       <b>Tools</b>
       <ul style={listStyle}>
-        <li>
-          <a target="_blank" href={"https://stochsd.sourceforge.io/manuals/StochSD_StatRes.pdf"}>
-            StatRes manual
-          </a>
-          {" "}- for multiple runs of a stochastic model, statistical analysis and result presentation.
-        </li>
-        <li>
-          <a target="_blank" href={"https://stochsd.sourceforge.io/manuals/StochSD_ParmVar.pdf"}>
-            ParmVar manual
-          </a>
-          {" "}- for parameters estimation with a stochastic model.
-        </li>
-        <li>
-          <a target="_blank" href={"https://stochsd.sourceforge.io/manuals/StochSD_Optim.pdf"}>
-            Optim manual
-          </a>
-          {" "}- for optimisation and for model fitting of a deterministic model.
-        </li>
-        <li>
-          <a target="_blank" href={"https://stochsd.sourceforge.io/manuals/StochSD_Sensi.pdf"}>
-            Sensi manual
-          </a>
-          {" "}- for sensitivity analysis.
-        </li>
+        {manuals_list.map(man => {
+          return (<li>{manual_to_link(man)}</li>);
+        })}
       </ul>
     </div>
   );
