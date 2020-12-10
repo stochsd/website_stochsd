@@ -10,7 +10,7 @@
 </mxGeometry>
 </mxCell>
 </TextArea>
-<TextArea Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="76" name="A COMBINED CONTINUOUS &amp; DISCRETE MODEL.&#10;&#10;In this Prey-predator model, the prey is the continuous amount of Grass and the prey are discrete Sheep. Transition stochasticity exists only in the latter case. &#10;&#10;In some simulations the Sheep may become extinct. Then the grass will continuously grow to its stationary level." HideFrame="false" Color="black">
+<TextArea Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="76" name="A COMBINED CONTINUOUS &amp; DISCRETE MODEL.&#10;&#10;In this Prey-predator model, the prey is the continuous amount of Grass and the predators are discrete Sheep. Transition stochasticity exists only in the latter case. &#10;&#10;In some simulations the Sheep may become extinct. The grass will then continuously grow to its stationary level." HideFrame="false" Color="black">
 <mxCell parent="1" visible="0" edge="1" style="textarea">
 <mxGeometry x="0" y="0" width="100" height="100" as="geometry">
 <mxPoint as="sourcePoint" x="504.00706058740616" y="271.6698684692383"/>
@@ -100,105 +100,105 @@
 </Flow>
 <Flow name="DeathsY" Note="" FlowRate="PoFlow([e]*[Y])" OnlyPositive="false" TimeIndependent="false" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="49" RotateName="3" MiddlePoints="" ValueError="" ValveIndex="0" VariableSide="false" Color="red" valveIndex="0" variableSide="true" color="red">
 <mxCell parent="1" edge="1" style="flow" source="45">
-<mxGeometry x="381" y="296.0801315307617" width="100" height="100" as="geometry">
+<mxGeometry x="381" y="306.75" width="100" height="100" as="geometry">
 <mxPoint as="sourcePoint" x="381" y="247"/>
-<mxPoint as="targetPoint" x="381" y="345.16026306152344"/>
+<mxPoint as="targetPoint" x="381" y="366.5"/>
 </mxGeometry>
 </mxCell>
 </Flow>
-<Link name="Link11" Note="" BiDirectional="false" id="79" b1x="122.8919916579417" b1y="208.07115802226122" b2x="104.69360064488986" b2y="221.17971003343737" Color="green" color="green">
+<Link name="Link11" Note="" BiDirectional="false" id="79" b1x="122.87204890199789" b1y="208.03900452542692" b2x="104.66673742957506" b2y="221.15503953676554" Color="green" color="green">
 <mxCell parent="1" source="44" edge="1" style="link" target="81">
-<mxGeometry x="165" y="164.5717509166373" width="100" height="100" as="geometry">
-<mxPoint as="sourcePoint" x="165" y="221.22416164631514"/>
-<mxPoint as="targetPoint" x="107.9193401869595" y="279.6991655395472"/>
+<mxGeometry x="165" y="164.54663154782986" width="100" height="100" as="geometry">
+<mxPoint as="sourcePoint" x="165" y="221.19406059727316"/>
+<mxPoint as="targetPoint" x="107.89920249838653" y="279.7002668389361"/>
 </mxGeometry>
 </mxCell>
 </Link>
-<Link name="Link2" Note="" BiDirectional="false" id="51" b1x="167.6431640542956" b1y="208.20206988429794" b2x="162.0936280091662" b2y="200.6365046264754" Color="green" color="green">
+<Link name="Link2" Note="" BiDirectional="false" id="51" b1x="165.88067223472024" b1y="208.112066588614" b2x="160.55935993252686" b2y="200.327206512889" Color="green" color="green">
 <mxCell parent="1" source="44" target="46" edge="1" style="link">
-<mxGeometry x="170.09512902738567" y="175.91562051571083" width="100" height="100" as="geometry">
-<mxPoint as="sourcePoint" x="170.09512902738567" y="210"/>
-<mxPoint as="targetPoint" x="165.78125001874665" y="186.04999101267504"/>
+<mxGeometry x="168.283453353179" y="175.27505372263187" width="100" height="100" as="geometry">
+<mxPoint as="sourcePoint" x="168.283453353179" y="210"/>
+<mxPoint as="targetPoint" x="164.75115376401496" y="185.79895368124878"/>
 </mxGeometry>
 </mxCell>
 </Link>
-<Link name="Link3" Note="" BiDirectional="false" id="52" b1x="350.64569684808214" b1y="252.53567909060953" b2x="349.64039320947626" b2y="266.78431896598545" Color="red" color="red">
+<Link name="Link3" Note="" BiDirectional="false" id="52" b1x="347.7944994086714" b1y="254.7141468903851" b2x="346.7806962487918" b2y="274.14823791691214" Color="red" color="red">
 <mxCell parent="1" source="45" target="49" edge="1" style="link">
-<mxGeometry x="357.6034673259933" y="300.5192840596726" width="100" height="100" as="geometry">
-<mxPoint as="sourcePoint" x="357.6034673259933" y="247"/>
-<mxPoint as="targetPoint" x="354.03856811934514" y="277.3307724438222"/>
+<mxGeometry x="357.1339854922434" y="300.0174664803852" width="100" height="100" as="geometry">
+<mxPoint as="sourcePoint" x="357.1339854922434" y="247"/>
+<mxPoint as="targetPoint" x="353.0349329607704" y="288.4044908203512"/>
 </mxGeometry>
 </mxCell>
 </Link>
-<Link name="Link1" Note="" BiDirectional="false" id="53" b1x="172.88850272792857" b1y="258.47122752232525" b2x="168.58255754515974" b2y="270.9444619425444" Color="green" color="green">
+<Link name="Link1" Note="" BiDirectional="false" id="53" b1x="172.73116718356977" b1y="258.4756329134978" b2x="168.4362164098053" b2y="270.9515304304251" Color="green" color="green">
 <mxCell parent="1" target="47" edge="1" style="link" source="44">
-<mxGeometry x="179.04566878898282" y="208.64831682018087" width="100" height="100" as="geometry">
-<mxPoint as="sourcePoint" x="179.04566878898282" y="248"/>
-<mxPoint as="targetPoint" x="169.29663364036176" y="288.0123719325146"/>
+<mxGeometry x="178.87889726367297" y="208.58240049424947" width="100" height="100" as="geometry">
+<mxPoint as="sourcePoint" x="178.87889726367297" y="248"/>
+<mxPoint as="targetPoint" x="169.16480098849894" y="288.01744654426795"/>
 </mxGeometry>
 </mxCell>
 </Link>
-<Link name="Link4" Note="" BiDirectional="false" id="54" b1x="309.37718480614586" b1y="271.2410422873442" b2x="261.00458643385474" b2y="285.14769706425534" Color="red" color="red">
+<Link name="Link4" Note="" BiDirectional="false" id="54" b1x="309.3771951908129" b1y="271.243839488541" b2x="261.00474379775255" b2y="285.1499988492762" Color="red" color="red">
 <mxCell parent="1" source="45" target="47" edge="1" style="link">
-<mxGeometry x="355" y="216.3510578829394" width="100" height="100" as="geometry">
-<mxPoint as="sourcePoint" x="355" y="243.30463503879696"/>
-<mxPoint as="targetPoint" x="189.3974807270818" y="303.12786069139133"/>
+<mxGeometry x="355" y="216.35292980581133" width="100" height="100" as="geometry">
+<mxPoint as="sourcePoint" x="355" y="243.30798139255543"/>
+<mxPoint as="targetPoint" x="189.39787821906722" y="303.12944350220243"/>
 </mxGeometry>
 </mxCell>
 </Link>
-<Link name="Link5" Note="" BiDirectional="false" id="55" b1x="256.00306257284774" b1y="197.1362092370698" b2x="275.9855674555077" b2y="191.00865847275162" Color="green" color="green">
+<Link name="Link5" Note="" BiDirectional="false" id="55" b1x="256.00298267801145" b1y="197.1340725243688" b2x="275.98542041832735" b2y="191.00671752188077" Color="green" color="green">
 <mxCell parent="1" source="44" target="48" edge="1" style="link">
-<mxGeometry x="277.8850285914625" y="194.71452029400584" width="100" height="100" as="geometry">
-<mxPoint as="sourcePoint" x="215" y="216.9327419014383"/>
-<mxPoint as="targetPoint" x="340.7700571829251" y="172.49629868657337"/>
+<mxGeometry x="277.8848408102816" y="194.71257300563153" width="100" height="100" as="geometry">
+<mxPoint as="sourcePoint" x="215" y="216.93016147757274"/>
+<mxPoint as="targetPoint" x="340.76968162056323" y="172.4949845336903"/>
 </mxGeometry>
 </mxCell>
 </Link>
-<Link name="Link6" Note="" BiDirectional="false" id="56" b1x="347.4831099085799" b1y="203.11143538028983" b2x="346.19992686493384" b2y="197.17603403485384" Color="red" color="red">
+<Link name="Link6" Note="" BiDirectional="false" id="56" b1x="346.89117306934156" b1y="203.21796048249473" b2x="345.57976519759563" b2y="197.16946703177237" Color="red" color="red">
 <mxCell parent="1" source="45" target="48" edge="1" style="link">
-<mxGeometry x="355.43578495319787" y="268.5975256751774" width="100" height="100" as="geometry">
-<mxPoint as="sourcePoint" x="355.43578495319787" y="209"/>
-<mxPoint as="targetPoint" x="351.90604236241427" y="185.28900898794046"/>
+<mxGeometry x="355" y="268.21952502834324" width="100" height="100" as="geometry">
+<mxPoint as="sourcePoint" x="355" y="209.21466584938167"/>
+<mxPoint as="targetPoint" x="351.3881303711124" y="185.05091968557403"/>
 </mxGeometry>
 </mxCell>
 </Link>
-<Link name="Link7" Note="" BiDirectional="false" id="61" b1x="206.70953963890602" b1y="145.4359401876373" b2x="195.54181293669805" b2y="151.71703543387477" Color="green" color="green">
+<Link name="Link7" Note="" BiDirectional="false" id="61" b1x="206.75560181246092" b1y="145.4957710144561" b2x="195.58402839975656" b2y="151.78160689868326" Color="green" color="green">
 <mxCell parent="1" source="57" target="46" edge="1" style="link">
-<mxGeometry x="214.94679117054724" y="162.73091484767787" width="100" height="100" as="geometry">
-<mxPoint as="sourcePoint" x="214.94679117054724" y="138.16817769992818"/>
-<mxPoint as="targetPoint" x="187.29365199542752" y="156.45362748744375"/>
+<mxGeometry x="214.9952287396463" y="162.77819398932277" width="100" height="100" as="geometry">
+<mxPoint as="sourcePoint" x="214.9952287396463" y="138.22334448709796"/>
+<mxPoint as="targetPoint" x="187.33304349154758" y="156.52174347292475"/>
 </mxGeometry>
 </mxCell>
 </Link>
-<Link name="Link8" Note="" BiDirectional="false" id="62" b1x="221.89376646340722" b1y="331.20719345640265" b2x="206.5291829147029" b2y="323.82967837964225" Color="green" color="green">
+<Link name="Link8" Note="" BiDirectional="false" id="62" b1x="221.93255084215673" b1y="331.1673926962627" b2x="206.56017177523805" b2y="323.7849588813847" Color="green" color="green">
 <mxCell parent="1" source="58" target="47" edge="1" style="link">
-<mxGeometry x="233.91121285255588" y="252.15947676318214" width="100" height="100" as="geometry">
-<mxPoint as="sourcePoint" x="233.91121285255588" y="349.35551744274767"/>
-<mxPoint as="targetPoint" x="188.3390685732835" y="315.9798849530808"/>
+<mxGeometry x="233.95532486746035" y="252.14529532178574" width="100" height="100" as="geometry">
+<mxPoint as="sourcePoint" x="233.95532486746035" y="349.3262136508632"/>
+<mxPoint as="targetPoint" x="188.3607733346852" y="315.9298173088863"/>
 </mxGeometry>
 </mxCell>
 </Link>
-<Link name="Link9" Note="" BiDirectional="false" id="63" b1x="326.0885495214928" b1y="335.758566434026" b2x="325.97950529233265" b2y="329.4203152624533" Color="red" color="red">
+<Link name="Link9" Note="" BiDirectional="false" id="63" b1x="327.93598899464257" b1y="338.1506024203452" b2x="328.2425807039285" b2y="333.2161010111554" Color="red" color="red">
 <mxCell parent="1" source="60" target="49" edge="1" style="link">
-<mxGeometry x="336.21184437461085" y="327.9718079327406" width="100" height="100" as="geometry">
-<mxPoint as="sourcePoint" x="325.85672274976093" y="346.0183577719437"/>
-<mxPoint as="targetPoint" x="346.56696599946076" y="309.9252580935374"/>
+<mxGeometry x="336.2873072385166" y="332.72175642904983" width="100" height="100" as="geometry">
+<mxPoint as="sourcePoint" x="327.1222375814329" y="346.1129160597147"/>
+<mxPoint as="targetPoint" x="345.45237689560025" y="319.33059679838505"/>
 </mxGeometry>
 </mxCell>
 </Link>
-<Link name="Link10" Note="" BiDirectional="false" id="64" b1x="330.6574075743891" b1y="144.93131011482896" b2x="336.4933548860399" b2y="151.54959708376757" Color="red" color="red">
+<Link name="Link10" Note="" BiDirectional="false" id="64" b1x="330.50265274061445" b1y="145.07021656260318" b2x="336.3632766185221" b2y="151.70278940956473" Color="red" color="red">
 <mxCell parent="1" source="59" target="48" edge="1" style="link">
-<mxGeometry x="335.18085100469483" y="147.9654807195207" width="100" height="100" as="geometry">
-<mxPoint as="sourcePoint" x="327.03854777248574" y="139.97101648391796"/>
-<mxPoint as="targetPoint" x="343.3231542369039" y="155.9599449551235"/>
+<mxGeometry x="335.0430711974475" y="148.1090391414711" width="100" height="100" as="geometry">
+<mxPoint as="sourcePoint" x="326.86761181005056" y="140.09844060541107"/>
+<mxPoint as="targetPoint" x="343.2185305848445" y="156.11963767753113"/>
 </mxGeometry>
 </mxCell>
 </Link>
-<Link name="Link12" Note="" BiDirectional="false" id="68" b1x="67.0025647586505" b1y="334.33912312853374" b2x="76.06405107025299" b2y="319.0133335205208" Color="green" color="green">
+<Link name="Link12" Note="" BiDirectional="false" id="68" b1x="66.72274203003835" b1y="334.2921521330785" b2x="75.85319965876774" b2y="318.87817270608247" Color="green" color="green">
 <mxCell parent="1" source="67" edge="1" style="link" target="81">
-<mxGeometry x="80.5031730019777" y="329.0416360311082" width="100" height="100" as="geometry">
-<mxPoint as="sourcePoint" x="69.19877629953871" y="348.197142989458"/>
-<mxPoint as="targetPoint" x="91.80756970441671" y="309.8861290727585"/>
+<mxGeometry x="80.31184207796281" y="328.97261742960336" width="100" height="100" as="geometry">
+<mxPoint as="sourcePoint" x="68.92137269117084" y="348.23836914894594"/>
+<mxPoint as="targetPoint" x="91.70231146475477" y="309.70686571026073"/>
 </mxGeometry>
 </mxCell>
 </Link>
@@ -227,7 +227,7 @@
 <mxGeometry x="326" y="87" width="0" height="0" as="geometry"/>
 </mxCell>
 </Numberbox>
-<TimePlot Primitives="45,44" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="82" name="TimePlot1" Sides="L,L" TitleLabel="" LeftAxisLabel="" RightAxisLabel="" AxisLimits="{&quot;timeaxis&quot;:{&quot;min&quot;:0,&quot;max&quot;:500,&quot;auto&quot;:true},&quot;leftaxis&quot;:{&quot;min&quot;:-50,&quot;max&quot;:200,&quot;auto&quot;:true},&quot;rightaxis&quot;:{&quot;min&quot;:0,&quot;max&quot;:1,&quot;auto&quot;:true}}" PlotPer="1" AutoPlotPer="false" LineOptions="{&quot;stock&quot;:{&quot;pattern&quot;:[1],&quot;width&quot;:2},&quot;flow&quot;:{&quot;pattern&quot;:[10,5],&quot;width&quot;:2},&quot;variable&quot;:{&quot;pattern&quot;:[1],&quot;width&quot;:1},&quot;constant&quot;:{&quot;pattern&quot;:[1],&quot;width&quot;:1},&quot;converter&quot;:{&quot;pattern&quot;:[1],&quot;width&quot;:1}}" HasNumberedLines="true" ColorFromPrimitive="true" Color="black" LineWidth="undefined" LeftLogScale="false" RightLogScale="false">
+<TimePlot Primitives="45,44" Units="Unitless" MaxConstraintUsed="false" MinConstraintUsed="false" MaxConstraint="100" MinConstraint="0" ShowSlider="false" SliderMax="100" SliderMin="0" SliderStep="" id="82" name="TimePlot1" Sides="L,L" TitleLabel="" LeftAxisLabel="" RightAxisLabel="" AxisLimits="{&quot;timeaxis&quot;:{&quot;min&quot;:0,&quot;max&quot;:500,&quot;auto&quot;:true},&quot;leftaxis&quot;:{&quot;min&quot;:-50,&quot;max&quot;:150,&quot;auto&quot;:true},&quot;rightaxis&quot;:{&quot;min&quot;:0,&quot;max&quot;:1,&quot;auto&quot;:true}}" PlotPer="1" AutoPlotPer="false" LineOptions="{&quot;stock&quot;:{&quot;pattern&quot;:[1],&quot;width&quot;:2},&quot;flow&quot;:{&quot;pattern&quot;:[10,5],&quot;width&quot;:2},&quot;variable&quot;:{&quot;pattern&quot;:[1],&quot;width&quot;:1},&quot;constant&quot;:{&quot;pattern&quot;:[1],&quot;width&quot;:1},&quot;converter&quot;:{&quot;pattern&quot;:[1],&quot;width&quot;:1}}" HasNumberedLines="true" ColorFromPrimitive="true" Color="black" LineWidth="undefined" LeftLogScale="undefined" RightLogScale="undefined">
 <mxCell parent="1" visible="0" edge="1" style="timeplot">
 <mxGeometry x="0" y="0" width="100" height="100" as="geometry">
 <mxPoint as="sourcePoint" x="498.00281727313995" y="6.339744567871094"/>
