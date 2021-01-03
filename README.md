@@ -8,7 +8,7 @@ see
 https://github.com/facebook/create-react-app/blob/master/README.md 
 to run and build project.
 
-## Upload
+## Update website (upload new homepage version)
 
 run `npm run build`
 
