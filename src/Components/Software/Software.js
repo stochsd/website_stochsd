@@ -20,7 +20,8 @@ const software = () => {
       <p>
         The open-source code for <b>StochSD</b> is available <ExternLink to="https://github.com/stochsd/stochsd">here</ExternLink>.
       </p>
-      <h2>About the Open-Source License</h2>
+      <br/>
+      <h3>About the Open-Source License</h3>
       <p>
         Copyright &copy; 2021 StochSD. 
       </p>
@@ -42,6 +43,7 @@ const software = () => {
         The full license is found in StochSD under <i>Help-&gt;Third-party Software</i>.
       </p>
       <p>
+        <br/>
         <h3>Responsibility</h3>
         The user is fully responsible for the use of StochSD and its tools. The producer and the supplier of this code take no responsibility for the use or functioning of StochSD and its tools.
       </p>
