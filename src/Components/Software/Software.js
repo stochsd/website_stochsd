@@ -1,5 +1,6 @@
 import React from "react";
 import './Software.css';
+import ExternLink from './../ExternLink';
 
 const software = () => {
   return (
@@ -12,57 +13,22 @@ const software = () => {
         <b>StochSD</b> is available in two versions: <b>StochSD Desktop</b> which you download to your computer and <b>StochSD Web</b> which you can run in the web browser. Supported web browsers are: Google Chrome and Mozilla Firefox.
       </p>
       <p>
-        <a
-          href="https://sourceforge.net/projects/stochsd/files/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          StochSD Desktop
-        </a>{" "}
-        (download)
+        <ExternLink to="https://sourceforge.net/projects/stochsd/files/">StochSD Desktop</ExternLink> (download)
         <br />
-        <a
-          href="https://stochsd.sourceforge.io/software/MultiSimulationAnalyser/index.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          StochSD Web
-        </a>{" "}
-        (online)
+        <ExternLink to="https://stochsd.sourceforge.io/software/MultiSimulationAnalyser/index.html">StochSD Web</ExternLink> (online)
       </p>
       <p>
-        The open-source code for <b>StochSD</b> is available{" "}
-        <a
-          href="https://github.com/Magnus93/stochsd"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          here
-        </a>.
+        The open-source code for <b>StochSD</b> is available <ExternLink to="https://github.com/stochsd/stochsd">here</ExternLink>.
       </p>
       <h2>About the Open-Source License</h2>
       <p>
         Copyright &copy; 2021 StochSD.
       </p>
       <p>
-        <b>StochSD</b> is based on the open-source part of Insight Maker. {" "}
-        StochSD’s source code (including the open-source part of {" "}
-        Insight Maker) is released under a custom license called {" "}
-        <i>Insight Maker Public License</i>, which is based on the Affero GPL.{" "}
-        Insight Maker’s Public License is available at: {" "}
-        <a 
-          href="https://insightmaker.com/impl"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          https://insightmaker.com/impl.
-        </a>
+        <b>StochSD</b> is based on the open-source part of Insight Maker. StochSD’s source code (including the open-source part of Insight Maker) is released under a custom license called <i>Insight Maker Public License</i>, which is based on the Affero GPL. Insight Maker’s Public License is available at: <ExternLink to="https://insightmaker.com/impl">https://insightmaker.com/impl</ExternLink>
       </p>
       <p>
-        <i>Insight Maker Public License</i> thus covers all StochSD’s {" "}
-        JavaScript, HTML and CSS code for StochSD. The original {" "}
-        non-open source code in Insight Maker, such as ExtJS and mxGraph{" "}
-        are completely eliminated and replaced by the open-source libraries jqPlot and jquery-ui.
+        <i>Insight Maker Public License</i> thus covers all StochSD’s JavaScript, HTML and CSS code for StochSD. The original non-open source code in Insight Maker, such as ExtJS and mxGraph are completely eliminated and replaced by the open-source libraries jqPlot and jquery-ui.
       </p>
       <p>
         All the parts of the code that are from the original Insight Maker are
@@ -74,9 +40,7 @@ const software = () => {
       </p>
       <p>
         <h3>Responsibility</h3>
-        The user is fully responsible for the use of StochSD and its tools.{" "}
-        The producer and the supplier of this code take no responsibility{" "}
-        for the use or functioning of StochSD and its tools.
+        The user is fully responsible for the use of StochSD and its tools. The producer and the supplier of this code take no responsibility for the use or functioning of StochSD and its tools.
       </p>
     </div>
   );
