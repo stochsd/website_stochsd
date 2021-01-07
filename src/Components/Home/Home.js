@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ExternLink from "./../ExternLink";
 
 const home = (props) => {
 
@@ -22,13 +23,13 @@ const home = (props) => {
         StochSD includes tools for optimization/parameter estimation, for sensitivity analysis, and for statistical analysis and presentation of results from multiple simulations of a stochastic model.
       </p>
       <p>
-        StochSD is mainly intended for eduation and research where small and medium-sized CSS modelling and simulation is used. In addition to the software a, detailed <span style={redStyle}>User's Manual and Tutorial</span> and <span style={redStyle}>manuals for the tools </span> are included in StochSD and can also be downloaded. Further, a number of <span style={redStyle}>instructive examples</span> as well as <span style={redStyle}>5 lab exercises</span> are provided at this home page.
+        StochSD is mainly intended for eduation and research where small and medium-sized CSS modelling and simulation is used. In addition to the software a, detailed <span style={redStyle}>User's Manual and Tutorial</span> and <span style={redStyle}>manuals for the tools </span> are included in StochSD and can also be downloaded. Further, a number of <Link to="/example_models">instructive examples</Link> as well as <Link to="/labs">5 lab exercises</Link> are provided at this home page.
       </p>
       <p>
-        StochSD is partly based on the open-source parts of <span style={redStyle}>Insight Maker</span> using the System Dynamics approach of Stocks and Flows where models are easily built in a click-and-draw manner.
+        StochSD is partly based on the open-source parts of <ExternLink to="https://insightmaker.com/">Insight Maker</ExternLink>. using the System Dynamics approach of Stocks and Flows where models are easily built in a click-and-draw manner.
       </p>
       <p>
-        StochSD was developed by <span>Leif</span>, Erik and Magnus Gustafsson at Uppsala University, Sweden in cooperation with and support from the Karolinska Institute and the Agricultural University of Sweden. It is a fully open-source package written in JavaScript that runs on Windows, macOS and Linux. StochSD have now been tested in a number of university courses and a large effort has been spent on pedagogic aspects, easy handling, flexibility and debugging. 
+        StochSD was developed by <span style={redStyle}>Leif</span>, Erik and Magnus Gustafsson at Uppsala University, Sweden in cooperation with and support from the Karolinska Institute and the Agricultural University of Sweden. It is a fully open-source package written in JavaScript that runs on Windows, macOS and Linux. StochSD have now been tested in a number of university courses and a large effort has been spent on pedagogic aspects, easy handling, flexibility and debugging. 
       </p>
       <p>
         <b>Leif Gustafsson</b>

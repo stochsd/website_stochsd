@@ -1,3 +1,3 @@
-import Home from './FullPotentialCSS';
+import FullPotentialCSS from './FullPotentialCSS';
 export * from './FullPotentialCSS';
-export default Home;
+export default FullPotentialCSS;
