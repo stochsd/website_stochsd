@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './Menu.css';
 import Logo from '../../Images/stochsd.svg'; 
 import Bath from '../../Images/bath_mirror.png';
+import ExternLink from './../ExternLink';
 
 const menu = () => {
   return (
@@ -13,9 +14,9 @@ const menu = () => {
         <li className="topmenu"><Link to="/home">Home Page</Link></li>
         <li className="topmenu"><Link to="/stochsd_software">Software</Link>
         <ul>
-          <li className="submenu"><a href="https://stochsd.sourceforge.io/software/" target="_blank">Try StochSD online</a></li>
-          <li className="submenu"><a  href="https://sourceforge.net/projects/stochsd/files/" target="_blank">Download StochSD</a></li>
-          <li className="submenu"><a href="https://github.com/stochsd/stochsd/" target="_blank">Source code</a></li>
+          <li className="submenu"><ExternLink to="https://stochsd.sourceforge.io/software/">Try StochSD online</ExternLink></li>
+          <li className="submenu"><ExternLink to="https://sourceforge.net/projects/stochsd/files/">Download StochSD</ExternLink></li>
+          <li className="submenu"><ExternLink to="https://github.com/stochsd/stochsd/">Source code</ExternLink></li>
         </ul>
         </li>
         <li className="topmenu"><Link to="/stochsd_and_statres_manuels">User's Manuals</Link></li>

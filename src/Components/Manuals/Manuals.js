@@ -1,4 +1,5 @@
 import React from "react";
+import ExternLink from "../ExternLink";
 // import StochSDUserManual from "./pdfs/StochSD_User_Manual.pdf";
 // import StatResManual from "./pdfs/StochSD_StatRes.pdf";
 // import OptimManual from "./pdfs/StochSD_Optim.pdf";
@@ -31,9 +32,7 @@ const manuals = () => {
   ];
 
   const manual_to_link = (man_obj) => {
-  return (<span><a target="_blank" href={man_obj["path"]}>
-    <b>{man_obj["name"]}</b>
-  </a> - {man_obj["desc"]}</span>);
+  return (<span><ExternLink target="_blank" to={man_obj["path"]}><b>{man_obj["name"]}</b></ExternLink> - {man_obj["desc"]}</span>);
   }
 
 
