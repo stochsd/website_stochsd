@@ -32,7 +32,7 @@ const manuals = () => {
   ];
 
   const manual_to_link = (man_obj) => {
-  return (<span><ExternLink target="_blank" to={man_obj["path"]}><b>{man_obj["name"]}</b></ExternLink> - {man_obj["desc"]}</span>);
+    return (<span><ExternLink to={man_obj["path"]}><b>{man_obj["name"]}</b></ExternLink> - {man_obj["desc"]}</span>);
   }
 
 
