@@ -70,7 +70,7 @@ const software = () => {
         copyrighted by Erik Gustafsson and Magnus Gustafsson. 
       </p>
       <p>
-        The full license is found in StochSD under <i>Help->Third-party Software</i>.
+        The full license is found in StochSD under <i>Help-&gt;Third-party Software</i>.
       </p>
       <p>
         <h3>Responsibility</h3>
