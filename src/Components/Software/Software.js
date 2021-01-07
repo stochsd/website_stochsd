@@ -42,7 +42,7 @@ const software = () => {
       </p>
       <h2>About the Open-Source License</h2>
       <p>
-        Copyright &copy; 2019 StochSD.
+        Copyright &copy; 2021 StochSD.
       </p>
       <p>
         <b>StochSD</b> is based on the open-source part of Insight Maker. {" "}

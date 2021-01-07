@@ -21,7 +21,7 @@ const examples = () => {
 
   return (
     <div>
-      <h1>Example Models</h1>
+      <h1>StochSD Example Models</h1>
       <b>StochSD</b> examples from the paper:{" "}
       <a 
         href="http://www.scirp.org/JOURNAL/PaperInformation.aspx?PaperID=80104"
