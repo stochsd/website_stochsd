@@ -13,8 +13,8 @@ const fullpot = (props) => {
         for macro modelling) and still produce mutually consistent (i.e.
         contradiction free) results.
       </p>
-      <u>The Full Potential CSS theory, has solved this problem by:</u>
-      <ol>
+      <b>The Full Potential CSS theory, has solved this problem by:</b>
+      <ol style={{"marginTop": "4px"}}>
         <li>describing discrete objects as discrete and continuous matter as continuous, </li>
         <li>preserving the sojourn time distribution of a stage, </li>
         <li>correctly implementing attributes, and </li>
