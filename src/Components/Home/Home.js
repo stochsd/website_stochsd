@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const home = (props) => {
 
@@ -15,7 +16,7 @@ const home = (props) => {
         <b>StochSD</b> (<u>Stoch</u>astic <u>S</u>ystem <u>D</u>ynamics) is an extension of Continuous System Simulation (CSS) that not only can model and simulate continious flows between compartments, but also handle discrete transitions of entities. Also combined models within the CSS concept can be constructed in a straightforward way.
       </p>
       <p>
-        One imprtant aspect is that the <span style={redStyle}>Full Potential Theory \Link Here\</span>, which enables consistency between micro models (in e.g. Descrete Event Simulation or Agent Based models) and macro models realized by StochSD.
+        One imprtant aspect is that the <Link to="/full_potential_css">Full Potential Theory</Link>, which enables consistency between micro models (in e.g. Descrete Event Simulation or Agent Based models) and macro models realized by StochSD.
       </p>
       <p>
         StochSD includes tools for optimization/parameter estimation, for sensitivity analysis, and for statistical analysis and presentation of results from multiple simulations of a stochastic model.

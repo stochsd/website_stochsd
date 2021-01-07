@@ -7,6 +7,7 @@ import Manuals from './Components/Manuals';
 import Software from './Components/Software';
 import Examples from './Components/Examples';
 import Labs from './Components/Labs';
+import FullPotentialCSS from './Components/FullPotentialCSS';
 import ReactGA from 'react-ga';
 import MetaTags from 'react-meta-tags';
 
@@ -35,6 +36,7 @@ class App extends Component {
             <Route path={"/stochsd_and_statres_manuels"} component={Manuals} />
             <Route path={"/example_models"} component={Examples} />
             <Route path={"/labs"} component={Labs} />
+            <Route path={"/full_potential_css"} component={FullPotentialCSS} />
         </div>
       </Switch>
       </div>
