@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './Menu.css';
 import Logo from '../../Images/stochsd.svg'; 
-import Bath from '../../Images/bath.png';
+import Bath from '../../Images/bath_mirror.png';
 
 const menu = () => {
   return (
