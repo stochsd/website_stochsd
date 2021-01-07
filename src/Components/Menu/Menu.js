@@ -10,7 +10,7 @@ const menu = () => {
       <img src={Logo} alt="Icon is missing" id="iconImg" />
 			<h1>StochSD</h1>
       <ul>
-        <li className="topmenu"><Link to="/home">Purpose of Stochastic Simulation</Link></li>
+        <li className="topmenu"><Link to="/home">Home Page</Link></li>
         <li className="topmenu"><Link to="/stochsd_software">StochSD Software</Link>
         <ul>
           <li className="submenu"><a href="https://stochsd.sourceforge.io/software/" target="_blank">Try StochSD online</a></li>
