@@ -7,7 +7,7 @@ import Bath from '../../Images/bath_mirror.png';
 const menu = () => {
   return (
     <div className="menu">
-      <img src={Logo} alt="Icon is missing" id="iconImg" />
+      <Link to="/home"><img src={Logo} alt="Icon is missing" id="iconImg" /></Link>
 			<h1>StochSD</h1>
       <ul>
         <li className="topmenu"><Link to="/home">Home Page</Link></li>

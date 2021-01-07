@@ -11,7 +11,7 @@ const labs = () => {
         {"filepath": lab1, "desc": "Structure of behaviour"},
         {"filepath": lab2, "desc": "Model fitting and Optimization"},
         {"filepath": lab3, "desc": "Deterministic vs Stochastic Model Building"},
-        {"filepath": lab4, "desc": "Stoachstic Modelling of Uncertainties"},
+        {"filepath": lab4, "desc": "Stochastic Modelling of Uncertainties"},
         {"filepath": lab5, "desc": "Time Handling"}
     ];
 
