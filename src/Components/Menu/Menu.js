@@ -2,25 +2,26 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './Menu.css';
 import Logo from '../../Images/stochsd.svg'; 
-import Bath from '../../Images/bath.png';
+import Bath from '../../Images/bath_mirror.png';
+import ExternLink from './../ExternLink';
 
 const menu = () => {
   return (
     <div className="menu">
-      <img src={Logo} alt="Icon is missing" id="iconImg" />
+      <Link to="/home"><img src={Logo} alt="Icon is missing" id="iconImg" /></Link>
 			<h1>StochSD</h1>
       <ul>
-        <li className="topmenu"><Link to="/home">Purpose of Stochastic Simulation</Link></li>
-        <li className="topmenu"><Link to="/stochsd_software">StochSD Software</Link>
+        <li className="topmenu"><Link to="/home">Home Page</Link></li>
+        <li className="topmenu"><Link to="/stochsd_software">Software</Link>
         <ul>
-          <li className="submenu"><a href="https://stochsd.sourceforge.io/software/" target="_blank">Try StochSD online</a></li>
-          <li className="submenu"><a  href="https://sourceforge.net/projects/stochsd/files/" target="_blank">Download StochSD</a></li>
-          <li className="submenu"><a href="https://github.com/stochsd/stochsd/" target="_blank">Download Source code</a></li>
+          <li className="submenu"><ExternLink to="https://stochsd.sourceforge.io/software/">Try StochSD online</ExternLink></li>
+          <li className="submenu"><ExternLink to="https://sourceforge.net/projects/stochsd/files/">Download StochSD</ExternLink></li>
+          <li className="submenu"><ExternLink to="https://github.com/stochsd/stochsd/">Source code</ExternLink></li>
         </ul>
         </li>
-        <li className="topmenu"><Link to="/stochsd_and_statres_manuels">StochSD User's Manuals</Link></li>
+        <li className="topmenu"><Link to="/stochsd_and_statres_manuels">User's Manuals</Link></li>
         <li className="topmenu"><Link to="/example_models">Example Models</Link></li>
-        <li className="topmenu"><Link to="/labs">Labs</Link></li>
+        <li className="topmenu"><Link to="/labs">Lab Exercises</Link></li>
       </ul>
 			<img src={Bath} alt={"Bath here"} id="bathImg" />
     </div>

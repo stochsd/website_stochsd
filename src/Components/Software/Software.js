@@ -1,7 +1,11 @@
 import React from "react";
 import './Software.css';
+import ExternLink from './../ExternLink';
 
 const software = () => {
+
+  const year = new Date().getFullYear();
+
   return (
     <div>
       <h1>StochSD Software</h1>
@@ -9,74 +13,37 @@ const software = () => {
         <b>StochSD</b> is an open-source software for stochatic and dynamic modelling and simulation. It also contains tools for statistical post-analysis from multiple simulations.
       </p>
       <p>
-        <b>StochSD</b> is available in two versions: <b>StochSD Desktop</b> which you download to your computer and <b>StochSD Web</b> which you can run in the web browser. Supported web browsers are: Google Chrome and Mozilla Firefox.
+        <b>StochSD</b> is available in two versions: <b>StochSD Desktop</b> which you download to your computer and <b>StochSD Web</b> which you can run in the web browser. Supported web browsers are: Google Chrome, Mozilla Firefox and Microsoft Edge. The Desktop version is recommended because it can more easily work with local files.
       </p>
       <p>
-        <a
-          href="https://sourceforge.net/projects/stochsd/files/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          StochSD Desktop
-        </a>{" "}
-        (download)
+        <ExternLink to="https://sourceforge.net/projects/stochsd/files/">StochSD Desktop</ExternLink> (download)
         <br />
-        <a
-          href="https://stochsd.sourceforge.io/software/MultiSimulationAnalyser/index.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          StochSD Web
-        </a>{" "}
-        (online)
+        <ExternLink to="https://stochsd.sourceforge.io/software/MultiSimulationAnalyser/index.html">StochSD Web</ExternLink> (online)
       </p>
       <p>
-        The open-source code for <b>StochSD</b> is available{" "}
-        <a
-          href="https://github.com/Magnus93/stochsd"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          here
-        </a>.
+        The open-source code for <b>StochSD</b> is available <ExternLink to="https://github.com/stochsd/stochsd">here</ExternLink>.
       </p>
-      <h2>About the Open-Source License</h2>
+      <br/>
+      <h3>About the Open-Source Licenses</h3>
       <p>
-        Copyright &copy; 2019 StochSD.
+        Copyright &copy; {year} StochSD. 
       </p>
       <p>
-        <b>StochSD</b> is based on the open-source part of Insight Maker. {" "}
-        StochSD’s source code (including the open-source part of {" "}
-        Insight Maker) is released under a custom license called {" "}
-        <i>Insight Maker Public License</i>, which is based on the Affero GPL.{" "}
-        Insight Maker’s Public License is available at: {" "}
-        <a 
-          href="https://insightmaker.com/impl"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          https://insightmaker.com/impl.
-        </a>
+        <b>StochSD</b> uses the <ExternLink to="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License</ExternLink>.
       </p>
       <p>
-        <i>Insight Maker Public License</i> thus covers all StochSD’s {" "}
-        JavaScript, HTML and CSS code for StochSD. The original {" "}
-        non-open source code in Insight Maker, such as ExtJS and mxGraph{" "}
-        are completely eliminated and replaced by the open-source libraries jqPlot and jquery-ui.
+        StochSD is based on the open-source part of Insight Maker. StochSD’s source code (including the open-source part of Insight Maker) is released under a custom license called <i>Insight Maker Public License</i>, which is based on the Affero GPL. Insight Maker’s Public License is available at: <ExternLink to="https://insightmaker.com/impl">https://insightmaker.com/impl</ExternLink>. <i>Insight Maker Public License</i> thus covers all StochSD’s JavaScript, HTML and CSS code for StochSD. All parts of the code that are from the original Insight Maker are copyrighted by Scott Fortmann-Roe and the files specific to StochSD are copyrighted by Erik Gustafsson and Magnus Gustafsson. 
       </p>
       <p>
-        All the parts of the code that are from the original Insight Maker are
-        copyrighted by Scott Fortmann-Roe and the files specific to StochSD are
-        copyrighted by Erik Gustafsson and Magnus Gustafsson. 
+        A number of open-source packages are also included in StochSD.
       </p>
       <p>
-        The full license is found in StochSD under <i>Help->Third-party Software</i>.
+        The full licenses are found in StochSD under <i>Help-&gt;Third-party Software</i>.
       </p>
       <p>
+        <br/>
         <h3>Responsibility</h3>
-        The user is fully responsible for the use of StochSD and its tools.{" "}
-        The producer and the supplier of this code take no responsibility{" "}
-        for the use or functioning of StochSD and its tools.
+        The user is fully responsible for the use of StochSD and its tools. The producer and the supplier of this code take no responsibility for the use or functioning of StochSD and its tools.
       </p>
     </div>
   );

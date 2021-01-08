@@ -1,4 +1,5 @@
 import React from "react";
+import ExternLink from "../ExternLink";
 import file1 from "./StochSD-Files/A1_Right_and_wrong_stoch_modelling.ssd";
 import file2 from "./StochSD-Files/A2_Determ_models_hide_and distort.ssd";
 import file3 from "./StochSD-Files/A3_Green's_model.ssd";
@@ -21,19 +22,12 @@ const examples = () => {
 
   return (
     <div>
-      <h1>Example Models</h1>
-      <b>StochSD</b> examples from the paper:{" "}
-      <a 
-        href="http://www.scirp.org/JOURNAL/PaperInformation.aspx?PaperID=80104"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-      The full potential of Continuous System Simulation modelling
-      </a>
+      <h1>StochSD Example Models</h1>
+      <b>StochSD</b> examples from the paper: <ExternLink to="http://www.scirp.org/JOURNAL/PaperInformation.aspx?PaperID=80104">The full potential of Continuous System Simulation modelling</ExternLink>
       <ul>
         {ex_list.map((ex, index) => {
           return (<li>
-            <a href={ex["filepath"]} download><b>Ex-{index+1}</b></a> - {ex["desc"]}
+            <ExternLink to={ex["filepath"]} download><b>Ex-{index+1}</b></ExternLink> - {ex["desc"]}
           </li>);
         })}
       </ul>
