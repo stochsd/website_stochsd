@@ -24,26 +24,21 @@ const software = () => {
         The open-source code for <b>StochSD</b> is available <ExternLink to="https://github.com/stochsd/stochsd">here</ExternLink>.
       </p>
       <br/>
-      <h3>About the Open-Source License</h3>
+      <h3>About the Open-Source Licenses</h3>
       <p>
         Copyright &copy; {year} StochSD. 
       </p>
       <p>
-        The StochSD uses the <ExternLink to="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License</ExternLink>.
+        <b>StochSD</b> uses the <ExternLink to="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License</ExternLink>.
       </p>
       <p>
-        <b>StochSD</b> is based on the open-source part of Insight Maker. StochSD’s source code (including the open-source part of Insight Maker) is released under a custom license called <i>Insight Maker Public License</i>, which is based on the Affero GPL. Insight Maker’s Public License is available at: <ExternLink to="https://insightmaker.com/impl">https://insightmaker.com/impl</ExternLink>
+        StochSD is based on the open-source part of Insight Maker. StochSD’s source code (including the open-source part of Insight Maker) is released under a custom license called <i>Insight Maker Public License</i>, which is based on the Affero GPL. Insight Maker’s Public License is available at: <ExternLink to="https://insightmaker.com/impl">https://insightmaker.com/impl</ExternLink>. <i>Insight Maker Public License</i> thus covers all StochSD’s JavaScript, HTML and CSS code for StochSD. All parts of the code that are from the original Insight Maker are copyrighted by Scott Fortmann-Roe and the files specific to StochSD are copyrighted by Erik Gustafsson and Magnus Gustafsson. 
       </p>
       <p>
-        <i>Insight Maker Public License</i> thus covers all StochSD’s JavaScript, HTML and CSS code for StochSD. The original non-open source code in Insight Maker, such as ExtJS and mxGraph are completely eliminated and replaced by the open-source libraries jqPlot and jquery-ui.
+        A number of open-source packages are also included in StochSD.
       </p>
       <p>
-        All the parts of the code that are from the original Insight Maker are
-        copyrighted by Scott Fortmann-Roe and the files specific to StochSD are
-        copyrighted by Erik Gustafsson and Magnus Gustafsson. 
-      </p>
-      <p>
-        The full license is found in StochSD under <i>Help-&gt;Third-party Software</i>.
+        The full licenses are found in StochSD under <i>Help-&gt;Third-party Software</i>.
       </p>
       <p>
         <br/>
