@@ -3,6 +3,9 @@ import './Software.css';
 import ExternLink from './../ExternLink';
 
 const software = () => {
+
+  const year = new Date().getFullYear();
+
   return (
     <div>
       <h1>StochSD Software</h1>
@@ -23,7 +26,7 @@ const software = () => {
       <br/>
       <h3>About the Open-Source License</h3>
       <p>
-        Copyright &copy; 2021 StochSD. 
+        Copyright &copy; {year} StochSD. 
       </p>
       <p>
         The StochSD uses the <ExternLink to="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License</ExternLink>.
