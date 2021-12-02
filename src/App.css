@@ -29,8 +29,9 @@ a:hover {
 #header, #menu-button, .header-stochsd, .header > span, .header > a {
   display: none;
 }
+
 /* for phone */
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 50em) {
   body {
     padding: 0;
   }
@@ -54,7 +55,6 @@ a:hover {
     align-items: center;
     height: 3em;
     width: 3em;
-    /* background-color: aquamarine; */
     z-index: 2;
   }
   .header .toggle-menu span {
@@ -70,7 +70,6 @@ a:hover {
     position: absolute;
     height: 3px;
     width: 1.8em;
-    
     background-color: black;
   }
   .header .toggle-menu span::before { transform: translateY(-0.5em); }
@@ -80,23 +79,32 @@ a:hover {
   }
   .header > a {
     display: block;
+    margin: 0.5em;
   }
   .menu-area {
     position: absolute;
-    top: 3em;
+    top: 4em;
     right: 0;
     width: min-content;
     display: none;
+    z-index: 3;
   }
   .menu-area > div > a:first-child, .menu-area h1 {
     display: none;
+  }
+  #menu-button:checked ~ .toggle-menu::before {
+    content: "";
+    inset: 0;
+    min-height: 100vh;
+    position: absolute;
+    background-color: #00000055;
   }
   .header-stochsd {
     display: block;
     height: 3em;
   }
   .view-area {
-      border-top-color: transparent;
+      /* border-top-color: transparent; */
       border-left-color: transparent;
       border-right-color: transparent;
       padding-top: 0;

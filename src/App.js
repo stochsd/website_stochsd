@@ -18,12 +18,19 @@ ReactGA.initialize('UA-123014062-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.menuButton = React.createRef()
+    window.addEventListener("popstate", (event) => {
+      this.menuButton.current.checked = false
+    })
+  }
   render() {
     return (
       <HashRouter>
         <div className="App">
           <div class="header">
-            <input type="checkbox" id="menu-button"></input>
+            <input type="checkbox" ref={this.menuButton} id="menu-button"></input>
             <label class="toggle-menu" for="menu-button"><span></span></label>
             <span>StochSD</span>
             <Link to="/home"><img class="header-stochsd" src={Logo} alt="Icon is missing" id="iconImg" /></Link>
