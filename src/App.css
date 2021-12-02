@@ -1,4 +1,5 @@
 body {
+  position: relative;
   background-color: #f4f4f4;
   padding: 16px;
   line-height: 1.15;
@@ -12,9 +13,100 @@ body {
   grid-template: "menu view" /auto 1fr;
   grid-gap: 16px;
 }
-
-.viewArea {
+.view-area {
   background-color: white;
   border: 1px solid #d0d0d0;
   padding: 16px 32px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#header, #menu-button, .header-stochsd, .header > span, .header > a {
+  display: none;
+}
+
+/* for phone */
+@media screen and (max-width: 50em) {
+  body {
+    padding: 0;
+  }
+  .App {
+    display: block;
+  }
+  .header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+  }
+  .header > span {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .header .toggle-menu {
+    display: flex;
+    align-items: center;
+    height: 3em;
+    width: 3em;
+    z-index: 2;
+  }
+  .header .toggle-menu span {
+    display: block;
+    background-color: black;
+    width: 1.8em;
+    height: 3px;
+    margin: auto;
+  }
+  .header .toggle-menu span::before,
+  .header .toggle-menu span::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 1.8em;
+    background-color: black;
+  }
+  .header .toggle-menu span::before { transform: translateY(-0.5em); }
+  .header .toggle-menu span::after { transform: translateY(0.5em);}
+  input:checked ~ .menu-area {
+    display: block;
+  }
+  .header > a {
+    display: block;
+    margin: 0.5em;
+  }
+  .menu-area {
+    position: absolute;
+    top: 4em;
+    right: 0;
+    width: min-content;
+    display: none;
+    z-index: 3;
+  }
+  .menu-area > div > a:first-child, .menu-area h1 {
+    display: none;
+  }
+  #menu-button:checked ~ .toggle-menu::before {
+    content: "";
+    inset: 0;
+    min-height: 100vh;
+    position: absolute;
+    background-color: #00000055;
+  }
+  .header-stochsd {
+    display: block;
+    height: 3em;
+  }
+  .view-area {
+      /* border-top-color: transparent; */
+      border-left-color: transparent;
+      border-right-color: transparent;
+      padding-top: 0;
+  }
 }
