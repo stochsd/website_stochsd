@@ -7,7 +7,7 @@ import ExternLink from "../ExternLink";
 // import ParmVarManual from "./pdfs/StochSD_ParmVar.pdf";
 
 const manuals = () => {
-  const main_man = {"path": "https://stochsd.sourceforge.io/manuals/StochSD_User_Manual.pdf", "name": "StochSD User's Manual", "desc": "for the simulation language StochSD."};
+  const main_man = {"path": "https://stochsd.sourceforge.io/manuals/StochSD_User_Manual.pdf", "name": "StochSD User's Manual and Tutorial", "desc": "for the simulation language StochSD."};
   const manuals_list = [
     {
       "path": "https://stochsd.sourceforge.io/manuals/StochSD_Optim.pdf", 
@@ -48,7 +48,7 @@ const manuals = () => {
   return (
     <div>
       <h1>StochSD Manuals:</h1>
-      {manual_to_link(main_man)}
+      <ul style={listStyle}><li>{manual_to_link(main_man)}</li></ul>
       <br/>
       <br/>
       <b>Tools</b>

@@ -8,6 +8,18 @@ import ExternLink from "./../ExternLink";
 
 
 const labs = () => {
+    const lecture_list = [
+        {"filepath": "#", "desc": "Introduction & License"},
+        {"filepath": "#", "desc": "Basic Concepts"},
+        {"filepath": "#", "desc": "Modelling in StochSD"},
+        {"filepath": "#", "desc": "Important Techniques"},
+        {"filepath": "#", "desc": "Randomness"},
+        {"filepath": "#", "desc": "Stochastic Modelling"},
+        {"filepath": "#", "desc": "Stochastic Outputs"},
+        {"filepath": "#", "desc": "Experimental Design and Variance Reduction"},
+        {"filepath": "#", "desc": "The Modelling and Simulation Project"},
+        {"filepath": "#", "desc": "Simulation vs. Speculation"},
+    ]
     const lab_list = [
         {"filepath": lab1, "desc": "Structure of behaviour"},
         {"filepath": lab2, "desc": "Model fitting and Optimization"},
@@ -18,7 +30,16 @@ const labs = () => {
 
     return (
         <div>
-            <h1>StochSD Labs</h1>
+            <h1>Course Material</h1>
+            <h2>Lectures</h2>
+            <ul>
+                {lecture_list.map((lab, index) => {
+                    return (<li>
+                        <ExternLink to={lab["filepath"]}>Lecture {index}</ExternLink> - {lab["desc"]}
+                    </li>);
+                })}
+            </ul>
+            <h2>Laboratory Exercises</h2>
             <ul>
                 {lab_list.map((lab, index) => {
                     return (<li>
