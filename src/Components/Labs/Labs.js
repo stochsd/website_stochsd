@@ -4,21 +4,31 @@ import lab2 from './Lab-Files/LAB-2_Model_fitting_and_Optimization.pdf';
 import lab3 from './Lab-Files/LAB-3_Deterministic_vs_Stochastic_Model_Building.pdf';
 import lab4 from './Lab-Files/LAB-4_Stochastic_Modelling_of_Uncertainties.pdf';
 import lab5 from './Lab-Files/LAB-5_Time_Handling.pdf';
+import lecture0 from "./Lectures/L0_INTRODUCTION_&_LICENSE.docx"
+import lecture1 from "./Lectures/L1_Basic_Concepts.pptx"
+import lecture2 from "./Lectures/L2_Modelling_in_StochSD.pptx"
+import lecture3 from "./Lectures/L3_Important_Techniques.pptx"
+import lecture4 from "./Lectures/L4_Randomness.pptx"
+import lecture5 from "./Lectures/L5_Stochastic_Modelling.pptx"
+import lecture6 from "./Lectures/L6_Statistical_Output_Analysis.pptx"
+import lecture7 from "./Lectures/L7_Exp_Design_&_Var_Red.pptx"
+import lecture8 from "./Lectures/L8_Modelling_Project.pptx"
+import lecture9 from "./Lectures/L9_Simulation_vs_Speculation.pptx"
 import ExternLink from "./../ExternLink";
 
 
 const labs = () => {
     const lecture_list = [
-        {"filepath": "#", "desc": "Introduction & License"},
-        {"filepath": "#", "desc": "Basic Concepts"},
-        {"filepath": "#", "desc": "Modelling in StochSD"},
-        {"filepath": "#", "desc": "Important Techniques"},
-        {"filepath": "#", "desc": "Randomness"},
-        {"filepath": "#", "desc": "Stochastic Modelling"},
-        {"filepath": "#", "desc": "Stochastic Outputs"},
-        {"filepath": "#", "desc": "Experimental Design and Variance Reduction"},
-        {"filepath": "#", "desc": "The Modelling and Simulation Project"},
-        {"filepath": "#", "desc": "Simulation vs. Speculation"},
+        {"filepath": lecture0, "desc": "Introduction & License"},
+        {"filepath": lecture1, "desc": "Basic Concepts"},
+        {"filepath": lecture2, "desc": "Modelling in StochSD"},
+        {"filepath": lecture3, "desc": "Important Techniques"},
+        {"filepath": lecture4, "desc": "Randomness"},
+        {"filepath": lecture5, "desc": "Stochastic Modelling"},
+        {"filepath": lecture6, "desc": "Stochastic Outputs"},
+        {"filepath": lecture7, "desc": "Experimental Design and Variance Reduction"},
+        {"filepath": lecture8, "desc": "The Modelling and Simulation Project"},
+        {"filepath": lecture9, "desc": "Simulation vs. Speculation"},
     ]
     const lab_list = [
         {"filepath": lab1, "desc": "Structure of behaviour"},
@@ -30,7 +40,7 @@ const labs = () => {
 
     return (
         <div>
-            <h1>Course Material</h1>
+            <h1>Course Material - Model Building and Simulation</h1>
             <h2>Lectures</h2>
             <ul>
                 {lecture_list.map((lab, index) => {

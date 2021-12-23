@@ -22,7 +22,7 @@ class App extends Component {
     super(props);
     this.menuButton = React.createRef()
     window.addEventListener("popstate", (event) => {
-      this.menuButton.current.checked = false
+      this.menuButton && (this.menuButton.current.checked = false)
     })
   }
   render() {
