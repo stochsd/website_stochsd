@@ -21,7 +21,7 @@ const menu = () => {
         </li>
         <li className="topmenu"><Link to="/stochsd_and_statres_manuels">User's Manuals</Link></li>
         <li className="topmenu"><Link to="/example_models">Example Models</Link></li>
-        <li className="topmenu"><Link to="/labs">Course Material</Link></li>
+        <li className="topmenu"><Link to="/labs" className="course">Course Material</Link></li>
       </ul>
 			<img src={Bath} alt={"Bath here"} id="bathImg" />
     </div>

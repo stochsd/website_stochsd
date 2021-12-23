@@ -27,6 +27,8 @@ const home = (props) => {
       <p>
         StochSD was developed by <ExternLink to="http://www.signal.uu.se/Staff/lg/lg.html">Leif</ExternLink>, Erik and Magnus Gustafsson at Uppsala University, Sweden in cooperation with and support from the Karolinska Institute and the Agricultural University of Sweden. It is a fully open-source package written in JavaScript that runs on Windows, macOS and Linux. StochSD have now been tested in a number of university courses and a large effort has been spent on pedagogic aspects, easy handling, flexibility and debugging. 
       </p>
+      <p class="course"><b>COURSE MATERIAL</b> for a course in Modelling and Simulation for teaching or for self-studies is also provided for free downloading and use. It consists of nine Lectures in the form of 270 frames and five Laboratory Exercises.</p>
+      <p>
       <p>
         <b>Leif Gustafsson</b>
         <br />
@@ -34,7 +36,6 @@ const home = (props) => {
           Leif.Gunnar.Gustafsson@gmail.com
         </a>
       </p>
-      <p>
         <i>Updated: 2022-01-09 (yyyy-mm-dd)</i>
       </p>
     </div>
