@@ -36,7 +36,7 @@ const home = (props) => {
           Leif.Gunnar.Gustafsson@gmail.com
         </a>
       </p>
-        <i>Updated: 2022-12-23 (yyyy-mm-dd)</i>
+        <i>Updated: 2021-12-23 (yyyy-mm-dd)</i>
       </p>
     </div>
   );
