@@ -29,6 +29,9 @@ a:hover {
 #header, #menu-button, .header-stochsd, .header > span, .header > a {
   display: none;
 }
+.course {
+  color: rgb(51,136,38);
+}
 
 /* for phone */
 @media screen and (max-width: 50em) {
