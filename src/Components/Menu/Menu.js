@@ -4,6 +4,7 @@ import './Menu.css';
 import Logo from '../../Images/stochsd.svg'; 
 import Bath from '../../Images/bath_mirror.png';
 import ExternLink from './../ExternLink';
+import {downloadSoftwareUrl} from "../../globals";
 
 const menu = () => {
   return (
@@ -15,7 +16,7 @@ const menu = () => {
         <li className="topmenu"><Link to="/stochsd_software">Software</Link>
         <ul>
           <li className="submenu"><ExternLink to="https://stochsd.sourceforge.io/software/">Try StochSD online</ExternLink></li>
-          <li className="submenu"><ExternLink to="https://sourceforge.net/projects/stochsd/files/">Download StochSD</ExternLink></li>
+          <li className="submenu"><ExternLink to={downloadSoftwareUrl}>Download StochSD</ExternLink></li>
           <li className="submenu"><ExternLink to="https://github.com/stochsd/stochsd/">Source code</ExternLink></li>
         </ul>
         </li>

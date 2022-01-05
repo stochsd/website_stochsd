@@ -1,6 +1,7 @@
 import React from "react";
 import './Software.css';
 import ExternLink from './../ExternLink';
+import {downloadSoftwareUrl} from "../../globals";
 
 const software = () => {
 
@@ -16,7 +17,7 @@ const software = () => {
         <b>StochSD</b> is available in two versions: <b>StochSD Desktop</b> which you download to your computer and <b>StochSD Web</b> which you can run in the web browser. Supported web browsers are: Google Chrome, Mozilla Firefox and Microsoft Edge. The Desktop version is recommended because it can more easily work with local files.
       </p>
       <p>
-        <ExternLink to="https://sourceforge.net/projects/stochsd/files/">StochSD Desktop</ExternLink> (download)
+        <ExternLink to={downloadSoftwareUrl}>StochSD Desktop</ExternLink> (download)
         <br />
         <ExternLink to="https://stochsd.sourceforge.io/software/MultiSimulationAnalyser/index.html">StochSD Web</ExternLink> (online)
       </p>
