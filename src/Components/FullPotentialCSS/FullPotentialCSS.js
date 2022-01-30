@@ -28,7 +28,7 @@ const fullpot = (props) => {
         StochSD is a unique Full Potential CSS language where you can model discrete entities by integer numbers and continuous amounts by ‘real’ numbers, which makes the results from micro- and macro-modelling fully consistent when the basic rules, just presented, are followed. As a bonus, also combined discrete-continuous simulation can swiftly be applied within the CSS concept.
       </p>
       <p>
-        The Full Potential CSS theory is presented in the paper: <ExternLink to="http://www.scirp.org/JOURNAL/PaperInformation.aspx?PaperID=80104">The Full Potential of Continious System Simulation Modelling.</ExternLink>
+        The Full Potential CSS theory is presented in the paper: <ExternLink to="http://www.scirp.org/JOURNAL/PaperInformation.aspx?PaperID=80104">The Full Potential of Continuous System Simulation Modelling.</ExternLink>
       </p>
     </div>
   );

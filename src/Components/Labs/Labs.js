@@ -19,7 +19,7 @@ import ExternLink from "./../ExternLink";
 
 const labs = () => {
     const lecture_list = [
-        {"filepath": lecture0, "desc": "Introduction & License"},
+        {"filepath": lecture0, "desc": "Introduction & License \t(about the course, suggestions and License)"},
         {"filepath": lecture1, "desc": "Basic Concepts"},
         {"filepath": lecture2, "desc": "Modelling in StochSD"},
         {"filepath": lecture3, "desc": "Important Techniques"},
@@ -45,7 +45,7 @@ const labs = () => {
             <ul>
                 {lecture_list.map((lab, index) => {
                     return (<li>
-                        <ExternLink to={lab["filepath"]}>Lecture {index}</ExternLink> - {lab["desc"]}
+                        <ExternLink to={lab["filepath"]}>Lecture {index}</ExternLink> - <span style={{"white-space": "pre"}}>{lab["desc"]}</span>
                     </li>);
                 })}
             </ul>

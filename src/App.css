@@ -18,7 +18,9 @@ body {
   border: 1px solid #d0d0d0;
   padding: 16px 32px;
 }
-
+.subtle {
+  color: #888;
+}
 a {
   text-decoration: none;
 }

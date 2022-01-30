@@ -41,7 +41,7 @@ class App extends Component {
           <Switch>
             <div className="view-area">
               <MetaTags>
-                <meta property="og:title" content="StochSD Homepage" />
+                <meta property="og:title" content="StochSD Home Page" />
                 <meta property="og:image" content="https://stochsd.sourceforge.io/images/bath.png" />
               </MetaTags>
               <Route path={"/"} exact component={Home} />

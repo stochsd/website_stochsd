@@ -23,7 +23,7 @@ const examples = () => {
   return (
     <div>
       <h1>StochSD Example Models</h1>
-      <b>StochSD</b> examples from the paper: <ExternLink to="http://www.scirp.org/JOURNAL/PaperInformation.aspx?PaperID=80104">The full potential of Continuous System Simulation modelling</ExternLink>
+      <p>Instructive models that display important aspects:</p>
       <ul>
         {ex_list.map((ex, index) => {
           return (<li>
@@ -33,7 +33,7 @@ const examples = () => {
       </ul>
       <p>
         To run an example file, click 'Ex-n' and download it on your computer.{" "}
-        Then start StochSD and open the saved file from whithin StochSD.
+        Then start StochSD and open the saved file from within StochSD.
       </p>
     </div>
   );
