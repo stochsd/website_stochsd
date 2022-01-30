@@ -10,7 +10,7 @@ const home = (props) => {
         StochSD Home Page 
       </h1>
       <p>
-        <b>StochSD</b> (<u>Stoch</u>astic <u>S</u>ystem <u>D</u>ynamics) is an extension of Continuous System Simulation (CSS) that not only can model and simulate continious flows between compartments, but also handle discrete transitions of entities. This also means that combined models within the CSS concept can be constructed in a straightforward way.
+        <b>StochSD</b> (<u>Stoch</u>astic <u>S</u>ystem <u>D</u>ynamics) is an extension of Continuous System Simulation (CSS) that not only can model and simulate continuous flows between compartments, but also handle discrete transitions of entities. This also means that combined models within the CSS concept can be constructed in a straightforward way.
       </p>
       <p>
         One important aspect is that full consistency between micro models (in e.g. Discrete Event Simulation or Agent Based models) and macro models in StochSD can be obtained by following some rules. This is described in the <Link to="/full_potential_css">Full Potential CSS theory</Link>.
@@ -19,7 +19,7 @@ const home = (props) => {
         StochSD also includes tools for optimization/parameter estimation, sensitivity analysis, and statistical analysis and presentation of results from multiple simulations of a stochastic model.
       </p>
       <p>
-        StochSD is mainly intended for education and research where small and medium-sized CSS modelling and simulation is used. In addition, a detailed <Link to="/stochsd_and_statres_manuels">User's Manual and manuals for the tools</Link> are included in StochSD and can also be downloaded. Further, a number of <Link to="/example_models">instructive examples</Link> as well as <Link to="/labs">course material</Link> are provided.
+        StochSD is mainly intended for education and research where small and medium-sized CSS modelling and simulation is used. In addition, a detailed <Link to="/stochsd_and_statres_manuels">User's Manual and manuals for the tools</Link> are included in StochSD.
       </p>
       <p>
         StochSD uses the System Dynamics approach, which means that models are easily constructed by Stocks and Flows in a click-and-draw manner.
