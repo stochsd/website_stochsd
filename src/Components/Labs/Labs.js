@@ -5,7 +5,7 @@ import lab3 from './Lab-Files/LAB-3_Deterministic_vs_Stochastic_Model_Building.p
 import lab4 from './Lab-Files/LAB-4_Stochastic_Modelling_of_Uncertainties.pdf';
 import lab5 from './Lab-Files/LAB-5_Time_Handling.pdf';
 import lecture0 from "./Lectures/L0_INTRODUCTION_&_LICENSE.docx"
-import lecture1 from "./Lectures/L1_Basic_Concepts.pptx"
+import lecture1 from "./Lectures/L1_Basic_Concepts_Introduction.pptx"
 import lecture2 from "./Lectures/L2_Modelling_in_StochSD.pptx"
 import lecture3 from "./Lectures/L3_Important_Techniques.pptx"
 import lecture4 from "./Lectures/L4_Randomness.pptx"
