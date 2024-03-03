@@ -10,12 +10,12 @@ import file7 from "./StochSD-Files/A7_Lanchester.ssd";
 
 const examples = () => {
   const ex_list = [
-    {"filepath": file1, "desc": "Right and wrong stochastic modelling"},
-    {"filepath": file2, "desc": "Deterministic modelling hides behaviours and may distort results"},
-    {"filepath": file3, "desc": "Consequences of neglecting stage-to-compartment expansion"},
-    {"filepath": file4, "desc": "Behaviours of different SIR models"},
-    {"filepath": file5, "desc": "Queues and statistical devices"},
-    {"filepath": file6, "desc": "Combined continuous and discrete modelling"},
+    {"filepath": file1, "desc": "Right and wrong stochastic modelling."},
+    {"filepath": file2, "desc": "Deterministic modelling hides behaviours and may distort results."},
+    {"filepath": file3, "desc": "Consequences of neglecting stage-to-compartment expansion."},
+    {"filepath": file4, "desc": "Behaviours of different SIR models."},
+    {"filepath": file5, "desc": "Queues and statistical devices."},
+    {"filepath": file6, "desc": "Combined continuous and discrete modelling."},
     {"filepath": file7, "desc": "Lanchester's model of warfare. Combat between two forces."}
   ];
 
@@ -23,7 +23,7 @@ const examples = () => {
   return (
     <div>
       <h1>StochSD Example Models</h1>
-      <p>Instructive models that display important aspects:</p>
+      <p><strong>Instructive models</strong> that display important aspects - (download as .ssd files)</p>
       <ul>
         {ex_list.map((ex, index) => {
           return (<li>
@@ -32,8 +32,7 @@ const examples = () => {
         })}
       </ul>
       <p>
-        To run an example file, click 'Ex-n' and download it on your computer.{" "}
-        Then start StochSD and open the saved file from within StochSD.
+        To run an example file, download it on your computer. Then start StochSD and open the saved file from within StochSD.
       </p>
     </div>
   );

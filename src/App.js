@@ -29,11 +29,11 @@ class App extends Component {
     return (
       <HashRouter>
         <div className="App">
-          <div class="header">
+          <div className="header">
             <input type="checkbox" ref={this.menuButton} id="menu-button"></input>
-            <label class="toggle-menu" for="menu-button"><span></span></label>
+            <label className="toggle-menu" htmlFor="menu-button"><span></span></label>
             <span>StochSD</span>
-            <Link to="/home"><img class="header-stochsd" src={Logo} alt="Icon is missing" id="iconImg" /></Link>
+            <Link to="/home"><img className="header-stochsd" src={Logo} alt="Icon is missing" id="iconImg" /></Link>
             <div className='menu-area'>
               <Menu/>
             </div>

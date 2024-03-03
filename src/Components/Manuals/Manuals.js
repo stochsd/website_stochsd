@@ -32,7 +32,7 @@ const manuals = () => {
   ];
 
   const manual_to_link = (man_obj) => {
-    return (<span><ExternLink to={man_obj["path"]}><b>{man_obj["name"]}</b></ExternLink> - {man_obj["desc"]}</span>);
+    return (<span><ExternLink to={man_obj["path"]}><b>{man_obj["name"]}</b></ExternLink> &#8212; {man_obj["desc"]}</span>);
   }
 
 
@@ -47,11 +47,11 @@ const manuals = () => {
 
   return (
     <div>
-      <h1>StochSD Manuals:</h1>
+      <h1>StochSD Manuals <span style={{fontSize: "1.2rem", fontWeight: "normal"}}>(download as .pdf)</span></h1>
       <ul style={listStyle}><li>{manual_to_link(main_man)}</li></ul>
       <br/>
       <br/>
-      <b>Tools</b>
+      <p><b>StochSD Tools</b> &#8212; (download as .pdf)</p>
       <ul style={listStyle}>
         {manuals_list.map(man => {
           return (<li>{manual_to_link(man)}</li>);
