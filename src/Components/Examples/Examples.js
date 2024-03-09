@@ -1,12 +1,12 @@
 import React from "react";
 import ExternLink from "../ExternLink";
-import file1 from "./StochSD-Files/A1_Right_and_wrong_stoch_modelling.ssd";
-import file2 from "./StochSD-Files/A2_Determ_models_hide_and distort.ssd";
-import file3 from "./StochSD-Files/A3_Green's_model.ssd";
-import file4 from "./StochSD-Files/A4_SIR_models.ssd";
-import file5 from "./StochSD-Files/A5_MMs_queue.ssd";
-import file6 from "./StochSD-Files/A6_Combined_model.ssd";
-import file7 from "./StochSD-Files/A7_Lanchester.ssd";
+import file1 from "./StochSD-Files/Ex-1_Right_and_wrong_stoch_modelling.ssd";
+import file2 from "./StochSD-Files/Ex-2_Determ_models_hide_and distort.ssd";
+import file3 from "./StochSD-Files/Ex-3_Green's_model.ssd";
+import file4 from "./StochSD-Files/Ex-4_SIR_models.ssd";
+import file5 from "./StochSD-Files/Ex-5_MMs_queue.ssd";
+import file6 from "./StochSD-Files/Ex-6_Combined_model.ssd";
+import file7 from "./StochSD-Files/Ex-7_Lanchester.ssd";
 
 const examples = () => {
   const ex_list = [

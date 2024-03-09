@@ -27,7 +27,7 @@ const manuals = () => {
     {
       "path": "https://stochsd.sourceforge.io/manuals/StochSD_ParmVar.pdf", 
       "name": "ParmVar manual", 
-      "desc": "for parameters estimation with a stochastic model."
+      "desc": "for studying the variations of parameter estimates."
     },
   ];
 
@@ -51,7 +51,7 @@ const manuals = () => {
       <ul style={listStyle}><li>{manual_to_link(main_man)}</li></ul>
       <br/>
       <br/>
-      <p><b>StochSD Tools</b> &#8212; (download as .pdf)</p>
+      <p><b>StochSD Tools</b></p>
       <ul style={listStyle}>
         {manuals_list.map(man => {
           return (<li>{manual_to_link(man)}</li>);

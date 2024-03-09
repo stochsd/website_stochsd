@@ -18,7 +18,7 @@ import ExternLink from "./../ExternLink";
 
 
 const labs = () => {
-    const first_lecture = {"filepath": lecture0, "desc": "Introduction & License."}
+    const first_lecture = {"filepath": lecture0, "desc": "Introduction & License. (download as .docx in Word)"}
     const lecture_list = [
         {"filepath": lecture1, "desc": "Basic Concepts"},
         {"filepath": lecture2, "desc": "Modelling in StochSD"},
@@ -31,9 +31,9 @@ const labs = () => {
         {"filepath": lecture9, "desc": "Simulation vs. Speculation"},
     ]
     const lab_list = [
-        {"filepath": lab1, "desc": "Structure of behaviour"},
-        {"filepath": lab2, "desc": "Model fitting and Optimization"},
-        {"filepath": lab3, "desc": "Deterministic vs Stochastic Model Building"},
+        {"filepath": lab1, "desc": "Structure and Behaviour"},
+        {"filepath": lab2, "desc": "Model Fitting and Optimization"},
+        {"filepath": lab3, "desc": "Deterministic vs. Stochastic Model Building"},
         {"filepath": lab4, "desc": "Stochastic Modelling of Uncertainties"},
         {"filepath": lab5, "desc": "Time Handling"}
     ];
@@ -42,8 +42,12 @@ const labs = () => {
     return (
         <div>
             <h1>Course Material - Model Building and Simulation</h1>
-            <p><strong>Lectures</strong> (.pptx files in PowerPoint).</p>
-            <p><ExternLink to={first_lecture["filepath"]}>Lecture 0</ExternLink> &#8212; <span>{first_lecture["desc"]}</span></p>
+            <ul>
+                <li>
+                    <ExternLink to={first_lecture["filepath"]}>About the Lectures</ExternLink> &#8212; <span>{first_lecture["desc"]}</span>
+                </li>
+            </ul>
+            <p><strong>Lectures</strong> (download as .pptx files in PowerPoint)</p>
             <ul>
                 {lecture_list.map((lab, index) => {
                     return (<li key={index}>

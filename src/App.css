@@ -21,9 +21,6 @@ body {
 .subtle {
   color: #888;
 }
-a {
-  text-decoration: none;
-}
 a:hover {
   text-decoration: underline;
 }

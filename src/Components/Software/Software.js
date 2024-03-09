@@ -19,10 +19,10 @@ const software = () => {
       <p>
         <ExternLink to={downloadSoftwareUrl}>StochSD Desktop</ExternLink> (download)
         <br />
-        <ExternLink to="https://stochsd.sourceforge.io/software/MultiSimulationAnalyser/index.html">StochSD Web</ExternLink> (online)
+        <ExternLink to="https://stochsd.sourceforge.io/software/">StochSD Web</ExternLink> (online)
       </p>
       <p>
-        The open-source code for <b>StochSD</b> is available <ExternLink to="https://github.com/stochsd/stochsd">here</ExternLink>.
+        The open-source code for StochSD is available <ExternLink to="https://github.com/stochsd/stochsd">here</ExternLink>.
       </p>
       <br/>
       <h3>About the Open-Source Licenses</h3>
@@ -36,7 +36,7 @@ const software = () => {
         StochSD is based on the open-source part of Insight Maker. StochSD&#39;s source code (including the open-source part of Insight Maker) is released under a custom license called <i>Insight Maker Public License</i>, which is based on the Affero GPL. Insight Maker&#39;s Public License is available at: <ExternLink to="https://insightmaker.com/impl">https://insightmaker.com/impl</ExternLink>. <i>Insight Maker Public License</i> thus covers all StochSD&#39;s JavaScript, HTML and CSS code for StochSD. All parts of the code that are from the original Insight Maker are copyrighted by Scott Fortmann-Roe and the files specific to StochSD are copyrighted by Erik Gustafsson and Magnus Gustafsson. An additional number of open-source packages are also included in StochSD.
       </p>
       <p>
-        The full licenses are found in StochSD under <i>Help-&gt;Third-party Licenses</i>.
+        The full licenses are found in StochSD under <i>Help &rarr; StochSD License</i>, and <i>Help &rarr; Third-party Licenses</i>.
       </p>
       <p>
         <br/>
